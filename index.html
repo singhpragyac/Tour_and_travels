@@ -87,6 +87,22 @@
         .ftr_lst_cl_link:hover {
             color: rgb(165, 182, 237);
         }
+
+        .main {
+            /* background-color: purple; */
+            white-space: nowrap;
+            overflow-x: auto;
+            overflow-y: hidden;
+        }
+
+        .child {
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+            margin: 30px;
+            display: inline-block;
+        }
+
     </style>
 </head>
 <body>
@@ -247,7 +263,7 @@
                         <div class="col-md-2 ps-5">
                             <div class="dropdown">
                                 <button type="button" class="btn" data-bs-toggle="dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle navclor" role="button">Destinations</a>
+                                    <a href="destination.html" class="nav-link dropdown-toggle navclor" role="button">Destinations</a>
                                 </button>
                                 <div class="dropdown-menu dropstart" style="min-width: 450px;">
                                     <div class="row">
@@ -360,7 +376,7 @@
                             <img src="images\Temple-Banner.jpg" class="d-block w-100" style="height: 300px; width: 100%;">
                             <div class="carousel-caption">
                                 <h1 style="color: rgb(228, 221, 92);font-family: 'Alfa Slab One', serif;">Kapaleeshwarar Temple</h1>
-                                <h4 style="color: rgb(255, 255, 255); font-family:'Bilbo Swash Caps', cursive;">City of hearts and heritage.</h4>
+                                <h4 style="color: rgb(255, 255, 255); font-family:'Bilbo Swash Caps', cursive;">pilgrimage destination and cultural heritage. </h4>
                             </div>
                         </div>
                     </div> 
@@ -412,6 +428,7 @@
             <div class="col-md-4">
                 <img src="images\tour_india_06.jpg" class="img_hover" style="height: auto; width: 100%;border-radius: 4px;">
                 <a href="#" class="tr_place"><h5>Golden Tempal Tour Packages</h5></a>
+                
 
                 <img src="images\tour_india_04.jpg" class="img_hover" style="height: auto; width: 100%;border-radius: 4px; margin-top: 10px;">
                 <a href="#" class="tr_place"><h5>Leh Tour Packages</h5></a>
@@ -433,32 +450,6 @@
         </div>
     </div> 
 
-    <!-- TRANSPORT SECTION -->
-    <div class="container">
-        <div class="row">
-            <h2 class="content_sec_hdr">Our Best Transport</h2>
-            <div class="col-md-3">
-                <img src="images\transport_01.jpg" style="height: 174px; width: 100%;">
-                <h5>Crysta Innova</h5>
-                <p>Dream to Travel offer Toyota Innova Standard range car rental service for a group of 6 persons Best car rental service in Delhi or less. It has 01 separate seats for the driver.</p>
-            </div>
-            <div class="col-md-3">
-                <img src="images\transport_02.jpg" style="height: auto; width: 100%;">
-                <h5>luxury Tempo</h5>
-                <p>Dream to Travel offers 12  Seater Luxury 1×1, Maharaja Seats, and Tempo Traveller rental services for a  Tempo Traveller for Outstation in a Delhi group of 12 persons or less. It has 01 separate seat for the driver.</p>
-            </div>
-            <div class="col-md-3">
-                <img src="images\transport_03.jpg" style="height: auto; width: 100%;">
-                <h5>luxury Tempo</h5>
-                <p>Dream to Travel offers 12  Seater Luxury 1×1, Maharaja Seats, and Tempo Traveller rental services for a  Tempo Traveller for Outstation in a Delhi group of 12 persons or less. It has 01 separate seat for the driver.</p>
-            </div>
-            <div class="col-md-3">
-                <img src="images\transport_04.jpg" style="height: auto; width: 100%;">
-                <h5>luxury Tempo</h5>
-                <p>Dream to Travel offers 12  Seater Luxury 1×1, Maharaja Seats, and Tempo Traveller rental services for a  Tempo Traveller for Outstation in a Delhi group of 12 persons or less. It has 01 separate seat for the driver.</p>
-            </div>
-        </div>
-    </div> 
 
     <!-- INTERNATIONAL TOUR -->
     <div class="container">
@@ -498,6 +489,77 @@
         </div>
     </div> 
 
+    <!-- TRANSPORT SECTION -->
+    <div class="container">
+        <div class="row">
+            <h2 class="content_sec_hdr">Our Best Transport</h2>
+            <div class="col-md-3">
+                <img src="images\transport_01.jpg" style="height: 174px; width: 100%;">
+                <h5>Crysta Innova</h5>
+                <p>Dream to Travel offer Toyota Innova Standard range car rental service for a group of 6 persons Best car rental service in Delhi or less. It has 01 separate seats for the driver.</p>
+            </div>
+            <div class="col-md-3">
+                <img src="images\transport_02.jpg" style="height: auto; width: 100%;">
+                <h5>luxury Tempo</h5>
+                <p>Dream to Travel offers 12  Seater Luxury 1×1, Maharaja Seats, and Tempo Traveller rental services for a  Tempo Traveller for Outstation in a Delhi group of 12 persons or less. It has 01 separate seat for the driver.</p>
+            </div>
+            <div class="col-md-3">
+                <img src="images\transport_03.jpg" style="height: auto; width: 100%;">
+                <h5>luxury Tempo</h5>
+                <p>Dream to Travel offers 12  Seater Luxury 1×1, Maharaja Seats, and Tempo Traveller rental services for a  Tempo Traveller for Outstation in a Delhi group of 12 persons or less. It has 01 separate seat for the driver.</p>
+            </div>
+            <div class="col-md-3">
+                <img src="images\transport_04.jpg" style="height: auto; width: 100%;">
+                <h5>luxury Tempo</h5>
+                <p>Dream to Travel offers 12  Seater Luxury 1×1, Maharaja Seats, and Tempo Traveller rental services for a  Tempo Traveller for Outstation in a Delhi group of 12 persons or less. It has 01 separate seat for the driver.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Holidays by Interest -->
+    <h2 class="content_sec_hdr">Holidays by Interest</h2>
+    <div class=" container main">
+        <div class="child" style="position: relative;">
+            <img src="images/wildlife-tour.webp" height="250px">
+            <p style="position: absolute; top: 150px; left: 40px; font-weight: 900; font-size: 25px; color: rgb(255, 255, 255);">Wildlife <br>Tour</p>
+        </div>
+        <div class="child" style="position: relative;">
+                <img src="images/heritage-tour.webp" height="250px">
+                <p style="position: absolute; top: 150px; left: 40px; font-weight: 900; font-size: 25px; color: white;">Heritage <br>Tour</p>
+            </div>
+         <div class="child" style="position: relative;">
+                <img src="images/honeymoon-tour.webp" height="250px">
+                 <p style="position: absolute; top: 150px;; left: 40px; font-weight: 900; font-size: 25px; color: white;">Honeymoon <br>Tour</p>
+            </div>
+            <div class="child" style="position: relative;">
+                <img src="images/hill-station-tour.webp" height="250px">
+                 <p style="position: absolute; top: 150px; left: 50px; font-weight: 900; font-size: 25px; color: white;">Hill Station <br>Tour</p>
+            </div>
+            <div class="child" style="position: relative;">
+                <img src="images/pilgrimage-tour.webp" height="250px">
+                 <p style="position: absolute; top: 150px; left: 50px; font-weight: 900; font-size: 25px; color: white;">Pilgrimage <br>Tour</p>
+            </div>
+            <div class="child" style="position: relative;">
+                <img src="images/adventure-tour.webp" height="250px">
+                 <p style="position: absolute; top: 150px; left: 50px; font-weight: 900; font-size: 25px; color: white;">Adventure <br>Tour</p>
+            </div>
+            <div class="child" style="position: relative;">
+                <img src="images/trekking-tour.webp" height="250px">
+                 <p style="position: absolute; top: 150px; left: 50px; font-weight: 900; font-size: 25px; color: white;">Trekking <br>Tour</p>
+            </div>
+            <div class="child" style="position: relative;">
+                <img src="images/luxury-train-tour.webp" height="250px">
+                 <p style="position: absolute; top: 150px; left: 50px; font-weight: 900; font-size: 25px; color: white;">Luxury Train <br>Tour</p>
+            </div>
+            <div class="child" style="position: relative;">
+                <img src="images/beach-tour.webp" height="250px">
+                 <p style="position: absolute; top: 150px; left: 50px; font-weight: 900; font-size: 25px; color: white;">Beach <br>Tour</p>
+            </div>
+    </div>
+    
+
+     
+
     <!-- OUR AIRLINES -->
     <div class="container pt-5">
         <div class="row">
@@ -514,7 +576,7 @@
     <!-- BOOK YOUR FLIGHT -->
     <div class="container pt-5">
         <div class="row">
-            <h3 class="content_sec_hdr">Book Your Next Flight</h3>
+            <h2 class="content_sec_hdr">Book Your Next Flight</h2>
             <div class="col">
                 <form style="text-align: center;">
                     <input type="text" placeholder="FROM" style="width: 70%; height: 50px;" class="mb-3 rounded border border-2"><br>
@@ -525,12 +587,220 @@
 
                     <input type="text" placeholder="TRAVELLER CLASS" style="width: 70%; height: 50px;" class="mb-3 rounded border border-2"><br>
                     
-                    <a href="#"><button type="button" style="width: 300px; border: none;background-color: rgb(227, 148, 121);color: white; border-radius: 5px;">Search Airasia flight</button></a>
+                    <a href="#"><button type="button" style="width: 40%; border: none;background-color: rgb(227, 148, 121);color: white; border-radius: 5px;">Search flight</button></a>
                 </form>
             </div>
         </div>
     </div>
 
+
+
+    <!-- Destinations by Region -->
+    <h1 class="content_sec_hdr" style="color: rgb(149, 160, 238); text-align: center;">Explore Top Destinations by Region</h1>
+
+    <!-- East India -->
+    <h2 style="color: brown; margin-left: 80px;">East India</h2>
+    <div class=" container-fluid main">
+        <div class="child" style="position: relative;">
+            <img src="images/east_in_02.webp" height="250px"> 
+            <p style="position: absolute; top: 180px; left: 30px; font-weight: 900; font-size: 25px; color: white;">Assam</p>
+         </div>
+        <div class="child" style="position: relative;">
+            <img src="images/east_in_03.webp" height="250px"> 
+            <p style="position: absolute; top: 180px;; left: 30px; font-weight: 900; font-size: 25px; color: white;">Arunachal</p>
+        </div>
+        <div class="child" style="position: relative;">
+            <img src="images/east_in_04.webp" height="250px"> 
+            <p style="position: absolute; top: 180px; left: 30px; font-weight: 900; font-size: 25px; color: white;">Odisha</p>
+        </div>
+        <div class="child" style="position: relative;">
+            <img src="images/east_in_05.webp" height="250px"> 
+            <p style="position: absolute; top: 180px; left: 30px; font-weight: 900; font-size: 25px; color: white;">Meghalaya</p>
+        </div>
+        <div class="child" style="position: relative;">
+            <img src="images/east_in_06.webp" height="250px"> 
+            <p style="position: absolute; top: 180px; left: 30px; font-weight: 900; font-size: 25px; color: white;">West Bengal</p>
+        </div>
+        <div class="child" style="position: relative;">
+           <img src="images/east_in_07.webp" height="250px"> 
+            <p style="position: absolute; top: 180px; left: 30px; font-weight: 900; font-size: 25px; color: white;">Nagaland</p>
+        </div>
+        <div class="child" style="position: relative;">
+            <img src="images/east_in_01.webp" height="250px">    
+            <p style="position: absolute; top: 180px; left: 30px; font-weight: 900; font-size: 25px; color: rgb(255, 255, 255);">Sikkim</p>
+        </div>
+    </div>
+
+    <!-- West India -->
+    <h2 style="color: brown; margin-left: 80px; margin-top: 30px;">West India</h2>
+    <div class=" container-fluid main">
+        <div class="child" style="position: relative;">
+            <img src="images\west_in_02.webp" height="250px">
+            <p style="position: absolute; top: 180px; left: 30px; font-weight: 900; font-size: 25px; color: white;">Gujarat</p>
+         </div>
+        <div class="child" style="position: relative;">
+            <img src="images\west_in_03.webp" height="250px">
+            <p style="position: absolute; top: 180px;; left: 30px; font-weight: 900; font-size: 25px; color: white;">Maharashtra</p>
+        </div>
+        <div class="child" style="position: relative;">
+            <img src="images\west_in_04.webp" height="250px">
+            <p style="position: absolute; top: 180px; left: 30px; font-weight: 900; font-size: 25px; color: white;">Dadra & Nagar</p>
+        </div>
+        <div class="child" style="position: relative;">
+            <img src="images\west_in_05.webp" height="250px">
+            <p style="position: absolute; top: 180px; left: 30px; font-weight: 900; font-size: 25px; color: white;">Gir National Park</p>
+        </div>
+        <div class="child" style="position: relative;">
+            <img src="images\west_in_06.webp" height="250px">
+            <p style="position: absolute; top: 180px; left: 30px; font-weight: 900; font-size: 25px; color: white;">Pune</p>
+        </div>
+        <div class="child" style="position: relative;">
+            <img src="images\west_in_07.webp" height="250px">
+            <p style="position: absolute; top: 180px; left: 30px; font-weight: 900; font-size: 25px; color: white;">Danman & Diu</p>
+        </div>
+        <div class="child" style="position: relative;">
+            <img src="images/west_in_01.webp" height="250px">    
+            <p style="position: absolute; top: 180px; left: 30px; font-weight: 900; font-size: 25px; color: rgb(255, 255, 255);">Goa</p>
+        </div>
+    </div>
+
+    <!-- North India -->
+    <h2 style="color: brown; margin-left: 80px;margin-top: 30px;">North India</h2>
+    <div class=" container-fluid main">
+        <div class="child" style="position: relative;">
+            <img src="images\north_in_02.webp" height="250px">    
+            <p style="position: absolute; top: 180px; left: 30px; font-weight: 900; font-size: 25px; color: rgb(255, 255, 255);">Rajasthan</p>
+        </div>
+        <div class="child" style="position: relative;">
+            <img src="images\north_in_03.webp" height="250px">
+            <p style="position: absolute; top: 180px;; left: 30px; font-weight: 900; font-size: 25px; color: white;">Uttar Pradesh</p>
+        </div>
+        <div class="child" style="position: relative;">
+            <img src="images\north_in_04.webp" height="250px">
+            <p style="position: absolute; top: 180px; left: 30px; font-weight: 900; font-size: 25px; color: white;">Himachal</p>
+        </div>
+        <div class="child" style="position: relative;">
+            <img src="images\north_in_05.webp" height="250px">
+            <p style="position: absolute; top: 180px; left: 30px; font-weight: 900; font-size: 25px; color: white;">Jammu & Kashmir</p>
+        </div>
+        <div class="child" style="position: relative;">
+            <img src="images\north_in_06.webp" height="250px">
+            <p style="position: absolute; top: 180px; left: 30px; font-weight: 900; font-size: 25px; color: white;">Delhi</p>
+        </div>
+        <div class="child" style="position: relative;">
+            <img src="images\north_in_07.webp" height="250px">
+            <p style="position: absolute; top: 180px; left: 30px; font-weight: 900; font-size: 25px; color: white;">Ladakh</p>
+        </div>
+        <div class="child" style="position: relative;">
+            <img src="images\north_in_01.webp" height="250px">
+            <p style="position: absolute; top: 180px; left: 30px; font-weight: 900; font-size: 25px; color: white;">Uttarakhand</p>
+        </div>
+    </div>
+
+    <!-- South India -->
+    <h2 style="color: brown; margin-left: 80px;margin-top: 30px;">South India</h2>
+    <div class=" container-fluid main">
+        <div class="child" style="position: relative;">
+            <img src="images/south_in_02.webp" height="250px"> 
+            <p style="position: absolute; top: 180px; left: 30px; font-weight: 900; font-size: 25px; color: white;">Karnataka</p>
+         </div>
+        <div class="child" style="position: relative;">
+            <img src="images/south_in_03.webp" height="250px"> 
+            <p style="position: absolute; top: 180px;; left: 30px; font-weight: 900; font-size: 25px; color: white;">Tamil Nandu</p>
+        </div>
+        <div class="child" style="position: relative;">
+            <img src="images/south_in_04.webp" height="250px"> 
+            <p style="position: absolute; top: 180px; left: 30px; font-weight: 900; font-size: 25px; color: white;">Puducherry</p>
+        </div>
+        <div class="child" style="position: relative;">
+            <img src="images/south_in_05.webp" height="250px"> 
+            <p style="position: absolute; top: 180px; left: 30px; font-weight: 900; font-size: 25px; color: white;">Andhra Pradesh</p>
+        </div>
+        <div class="child" style="position: relative;">
+            <img src="images/south_in_06.webp" height="250px"> 
+            <p style="position: absolute; top: 180px; left: 30px; font-weight: 900; font-size: 25px; color: white;">Telangana</p>
+        </div>
+        <div class="child" style="position: relative;">
+           <img src="images/south_in_07.webp" height="250px"> 
+            <p style="position: absolute; top: 180px; left: 30px; font-weight: 900; font-size: 25px; color: white;">andaman</p>
+        </div>
+        <div class="child" style="position: relative;">
+            <img src="images/south_in_01.webp" height="250px">    
+            <p style="position: absolute; top: 180px; left: 30px; font-weight: 900; font-size: 25px; color: rgb(255, 255, 255);">Kerala</p>
+        </div>
+    </div>
+
+
+    <!-- Cental India -->
+    <h2 style="color: brown; margin-left: 80px;margin-top: 30px;">Cental India</h2>
+    <div class=" container-fluid main">
+        <div class="child" style="position: relative;">
+            <img src="images\central_in_03.webp" height="250px">
+            <p style="position: absolute; top: 180px; left: 30px; font-weight: 900; font-size: 25px; color: white;">Bandhavgarh</p>
+         </div>
+        <div class="child" style="position: relative;">
+            <img src="images\central_in_02.webp" height="250px">
+            <p style="position: absolute; top: 180px;; left: 30px; font-weight: 900; font-size: 25px; color: white;">Chattisgarh</p>
+        </div>
+        <div class="child" style="position: relative;">
+            <img src="images\central_in_04.webp" height="250px">
+            <p style="position: absolute; top: 180px; left: 30px; font-weight: 900; font-size: 25px; color: white;">Bhopal</p>
+        </div>
+        <div class="child" style="position: relative;">
+            <img src="images\central_in_05.webp" height="250px">
+            <p style="position: absolute; top: 180px; left: 30px; font-weight: 900; font-size: 25px; color: white;">Khajuraho</p>
+        </div>
+        <div class="child" style="position: relative;">
+            <img src="images\central_in_06.webp" height="250px">
+            <p style="position: absolute; top: 180px; left: 30px; font-weight: 900; font-size: 25px; color: white;">Ujjain</p>
+        </div>
+        <div class="child" style="position: relative;">
+            <img src="images\central_in_07.webp" height="250px">
+            <p style="position: absolute; top: 180px; left: 30px; font-weight: 900; font-size: 25px; color: white;">Kanha National Park</p>
+        </div>
+        <div class="child" style="position: relative;">
+            <img src="images\central_in_01.webp" height="250px">    
+            <p style="position: absolute; top: 180px; left: 30px; font-weight: 900; font-size: 25px; color: rgb(255, 255, 255);">Madhya Pradesh</p>
+        </div>
+    </div>
+
+    <!-- discover india -->
+    <div class="container-fluid pt-5">
+        <div class="row">
+            <h1 style="color: rgb(149, 160, 238); text-align: center;" class="content_sec_hdr">Discover India’s Best-Kept Secrets</h1>
+            <h3 style="color: rgb(44, 44, 92);text-align: center;">Carefully crafted India tours blending cultural depth, natural beauty, and unforgettable experiences</h3>
+           <div class="col-md-4">
+                <div class="card">
+                    <img src="images/kerala-tours-intro.jpg" class="card-img-top" style="height: 250px; width:100%;">
+                    <div class="card-body">
+                        <h4 class="card-title" style="color: brown;">KERALA</h4>
+                        <p class="card-text">Kerala adores exclusive topographical features that have made it one of the most popular tourist destinations in Asia. An...</p>
+                        <a href="#" style="color: black;"><button class="btn bg-danger-subtle" style="font-weight: 600;">View All Package</button></a>
+                    </div>
+                </div>
+           </div>
+           <div class="col-md-4">
+                <div class="card">
+                    <img src="images/meghalaya-tours-intro.jpg" class="card-img-top" style="height: 250px; width:100%;">
+                    <div class="card-body">
+                        <h4 class="card-title" style="color: brown;">MEGHALAYA</h4>
+                        <p class="card-text">Here's good news for monsoon lovers, avail great discounts on Meghalaya tour packages that will take you deep in the heart of...</p>
+                        <a href="#" style="color: black;"><button class="btn bg-danger-subtle" style="font-weight: 600;">View All Package</button></a>
+                    </div>
+                </div>
+           </div>
+           <div class="col-md-4">
+                <div class="card">
+                    <img src="images/karnataka-tours-intro.jpg" class="card-img-top" style="height: 250px; width:100%;">
+                    <div class="card-body">
+                        <h4 class="card-title" style="color: brown;">KARNATAKA</h4>
+                        <p class="card-text">This state adorns the southwestern coastlines of India. The famous IT hub of India, Bangalore, a city also well known for its...</p>
+                        <a href="#" style="color: black;"><button class="btn bg-danger-subtle" style="font-weight: 600;">View All Package</button></a>
+                    </div>
+                </div>
+           </div>
+        </div>
+    </div>
 
     <!-- TESTIMONIALS  SECTION -->
     <div class="container">
@@ -547,10 +817,12 @@
         </div>
     </div>
 
+    
+
     <!-- OUR ACHIEVEMENTS -->
     <div class="container">
         <div class="row">
-            <h3 class="content_sec_hdr">Our Achievements</h3>
+            <h3 class="content_sec_hdr" style="color: brown;">Our Achievements</h3>
             <p>We are listed as highly recommended by these organisations. We perceive this a high evaluation of the quality tours which we offer to our guests. These recommendations are reviewed timely basis, so we are always on the path of improving our services and quality.</p>
             <div class="col-md-2"><img src="images\achiev_01.png" class="achieved_imgs mt-4"></div>
             <div class="col-md-2"><img src="images\achiev_02.png" class="achieved_imgs mt-4"></div>
@@ -654,10 +926,10 @@
 
 
     <!-- OFFCANVAS FOR HEADER -->
-    <div class="offcanvas offcanvas-start" id="headercanva">
+    <div class="offcanvas offcanvas-start bg-primary-subtle" id="headercanva">
         <!-- offcanvas header -->
         <div class="offcanvas-header">
-            <h3 class="offcanvas-title m-auto" style="color: brown; font-family: cursive">Raavaya</h3>
+            <h3 class="offcanvas-title m-auto" style="font-size: 35px;color: brown; font-family: cursive">Raavaya</h3>
             <button type="button" class="btn btn-close" data-bs-dismiss="offcanvas"></button>
         </div>
         <!-- offcanvas body -->
@@ -788,11 +1060,20 @@
                     <a href="contact.html" class="nav-link navclor">Contact Us</a>
                 </button>
             </div>
-            <!-- our blog -->
-            <div class="col col-md-2">
-                <button type="button" class="btn">
-                    <a href="#" class="nav-link navclor">Our Blogs</a>
-                </button>
+             <!-- get in touch -->
+            <div class="col col-md-4">
+                <h4 class="pt-4 pb-4" style="color: rgb(145, 58, 11);">Connect with Us</h4>
+                <a href="#" class="ftr_lst_cl_link" id="ftr_facebook"><i class="fa-brands fa-facebook" style="color: blue;"></i></a>
+
+                <a href="#" class="ftr_lst_cl_link" id="ftr_twitter"><i class="fa-brands fa-x-twitter" style="color: black;"></i></a>
+
+                <a href="#" class="ftr_lst_cl_link" id="ftr_instagram"><i class="fa-brands fa-square-instagram" style="color: rgb(244, 117, 232);font-size: 28px;"></i></a>
+
+                <a href="#" class="ftr_lst_cl_link" id="ftr_pinterest"><i class="fa-brands fa-pinterest" style="color: red;font-size: 28px;"></i></a>
+
+                <a href="#" class="ftr_lst_cl_link" id="ftr_linkedin"><i class="fa-brands fa-square-linkedin" style="color: rgb(32, 115, 216);font-size: 28px;"></i></a>
+
+                <a href="#" class="ftr_lst_cl_link" id="ftr_pinterest"><i class="fa-brands fa-square-whatsapp" style="color: rgb(50, 216, 50); font-size: 29px;"></i></i></a>
             </div>
         </div>
     </div>
