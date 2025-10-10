@@ -29,18 +29,18 @@
         }
 
         .content_sec_hdr {
-            color:  rgb(59, 45, 36);
-            text-align: center;
+            color:  rgb(0, 0, 0);
             padding: 30px;
-            font-family:Bilbo Swash Caps, cursive;
+           font-family: 'Alfa Slab One', 'serif';
         }
         /* .img_hover {
 	        transition: 2s linear;
         } */
 
         .img_hover:hover {
-        animation-name: pulse;
-        animation-duration: 3s;
+            animation-name: pulse;
+            animation-duration: 3s;
+            box-shadow: 0 4px 8px 0 rgba(234, 21, 6, 0.2), 0 6px 20px 0 rgba(6, 181, 234, 0.2);
         }
         @-webkit-keyframes pulse {
         0% {
@@ -87,6 +87,29 @@
         }
         .ftr_lst_cl_link:hover {
             color: rgb(165, 182, 237);
+        }
+
+        .main {
+            /* background-color: purple; */
+            white-space: nowrap;
+            overflow-x: auto;
+            overflow-y: hidden;
+        }
+
+        .child {
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+            margin: 30px;
+            display: inline-block;
+        }
+        .discover_card:hover {
+            box-shadow: 0 4px 8px 0 rgba(234, 6, 6, 0.2), 0 6px 20px 0 rgba(6, 181, 234, 0.2);
+        }
+        .udai_package {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            text-align: center;
         }
     </style>
 </head>
@@ -248,7 +271,7 @@
                         <div class="col-md-2 ps-5">
                             <div class="dropdown">
                                 <button type="button" class="btn" data-bs-toggle="dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle navclor" role="button">Destinations</a>
+                                    <a href="destination.html" class="nav-link dropdown-toggle navclor" role="button">Destinations</a>
                                 </button>
                                 <div class="dropdown-menu dropstart" style="min-width: 450px;">
                                     <div class="row">
@@ -331,9 +354,10 @@
                     <!-- carousel images -->
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="3000">
-                            <img src="images\contactus_banner.jpg" class="d-block w-100 img_hover" style="height: 300px; width: 100%;">
+                            <img src="images/mumbai/mumbai_banner_02.jpeg" class="d-block w-100 img_hover" style="height: 300px; width: 100%;">
                             <div class="carousel-caption">
-                                <h1 style="color: rgb(106, 135, 143);margin-bottom: 90px;font-family: 'Alfa Slab One', serif;"">Contact Us</h1>
+                                <h4 style="color: rgb(255, 255, 255);  font-family:'Bilbo Swash Caps', cursive;">It's Time to Plan Your</h4>
+                                <h1 style="color: rgb(220, 125, 88);margin-bottom:160px ; font-family: 'Alfa Slab One', 'serif';">Mumbai Tour</h1>
                             </div>
                         </div>
                     </div> 
@@ -342,26 +366,167 @@
         </div>
     </div>
 
-    <!-- CONTACT US -->
+    <!--  Mumbai tour -->
     <div class="container pt-5">
         <div class="row">
-            <div class="col">
-                <h5>Working Hours - (10:00 AM – 6:00 PM. Monday – Saturday)</h5><br>
-                <p style="font-family: Bilbo Swash Caps, cursive;"><b>Landline:</b> +91 11 23415601</p>
-                <p style="font-family: Bilbo Swash Caps, cursive;"><b>Mobile:</b> + 91 9910049132 / 9910048582 / 9354205211 / 9810100293  </p>
-                <p style="font-family: Bilbo Swash Caps, cursive;"><b>Whatsapp:</b>  + 91 9910049132</p>
-                <p style="font-family: Bilbo Swash Caps, cursive;"><b>Address:</b> Flat No. 6,2nd Floor, Above Shop No.1Shankar Market,Connaught Place,New Delhi, 110001, India.Nearest Landmark : Haldiram</p>
-
-                <h5>Director Sales & Marketing</h5>
-                <p style="font-family: Bilbo Swash Caps, cursive;">Mr. Gaurav Chawla</p>
-                <p style="font-family: Bilbo Swash Caps, cursive;"><b>Email:</b> gaurav.chawla@Raavaya.in</p>
-                <p style="font-family: Bilbo Swash Caps, cursive;"><b>Telephone:</b> +91 11 23415601</p>
-                <p style="font-family: Bilbo Swash Caps, cursive;"><b>Mobile:</b> +91-9910049132, 9810100293</p>
+            <div class="col-md-6">
+                <h2 style="color:  rgb(204, 151, 130);">Mumbai Tour Package</h2>
+                <p style="font-size: 18px; font-family: Bilbo Swash Caps, cursive;">
+                    A Mumbai tour offers a mix of iconic landmarks like the Gateway of India and colonial architecture such as Chhatrapati Shivaji Terminus, historical sites like the Elephanta Caves, and vibrant experiences like street food tours and visits to the lively Dharavi slum. For Bollywood enthusiasts, a special tour to Film City is available, while waterfront strolls along Marine Drive are a must-do. The ideal time to visit is from November to February for pleasant weather, and tours can be booked through various travel agencies and online platforms.  
+                </p>
+                <p style="font-size: 18px; font-family: Bilbo Swash Caps, cursive;">
+                    For Bollywood enthusiasts, a special tour to Film City is available, while waterfront strolls along Marine Drive are a must-do. The ideal time to visit is from November to February for pleasant weather, and tours can be booked through various travel agencies and online platforms.  
+                </p>
+            </div>
+            <div class="col-md-6">
+                <img src="images/mumbai/mumbai_01.avif"  class="img_hover" style="height: auto;width: 100%; border-radius: 5px;">
             </div>
         </div>
-    </div> 
+    </div>
+    
+    <!-- book now -->
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-md-6" style="font-weight: 900; color: rgb(163, 170, 130); font-size: 4vw;margin-top: 25px;">Mumbai,City of Dreams</div>
+            <div class="col-md-6">
+                <div style="background-color: rgb(247, 225, 225);text-align: center; width: 80%; border-radius: 6px; padding: 8px; margin: auto;">
+                   <p style="color: gray;">Starts From</p>
+                    <h2>₹14,000*</h2>
+                    <a href="booking_form.html"><button type="button" value="book" style="height: 50px; width: 70%; border: none;border-radius: 18px; font-weight: 900;background-color: rgb(232, 75, 75); color: white;">Book Now</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  Most Popular Mumbai Tour Packages -->
+    <div class="container pt-5">
+        <div class="row">
+            <h2 class="content_sec_hdr">Most Popular Mumbai Tour Packages</h2>
+            <h6 style="color: gray;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Mumbai is famous as India's "City of Dreams" and the center of the Indian film industry, Bollywood, and for its vibrant street life, large markets, diverse culture, and delicious street food. Key landmarks include the Gateway of India, Marine Drive, and the UNESCO-listed Elephanta Caves. The city also boasts a rich history, seen in its Victorian and Art Deco architecture and heritage sites.</h6>
+            <div class="col-md-3">
+                <a href="#" class="udai_package"><img src="images/mumbai/mumbai_p_01.jpeg" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"><p>Gateway of India </p></a>
+            </div>
+
+            <div class="col-md-3">
+                <a href="#" class="udai_package"><img src="images/mumbai/mumbai_p_02.jpeg" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"><p>Marine Drive</p></a>
+            </div>
+
+            <div class="col-md-3">
+                <a href="#" class="udai_package"><img src="images/mumbai/mumbai_p_03.jpeg" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"><p>Elephanta Caves</p></a>
+            </div>
+            <div class="col-md-3">
+                <a href="#" class="udai_package"><img src="images//mumbai/mumbai_p_04.jpeg" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"><p>Siddhivinayak Temple</p></a>
+            </div>
+        </div>
+    </div>
 
 
+    <!--  Popular Mumbai street food -->
+    <div class="container pt-5">
+        <div class="row">
+            <h2 class="content_sec_hdr">Popular Mumbai Street Food Tour</h2>
+            <h6 style="color: gray;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Mumbai is famous as India's "City of Dreams" and the center of the Indian film industry, Bollywood, and for its vibrant street life, large markets, diverse culture, and delicious street food. Key landmarks include the Gateway of India, Marine Drive, and the UNESCO-listed Elephanta Caves. The city also boasts a rich history, seen in its Victorian and Art Deco architecture and heritage sites.</h6>
+            <div class="col-md-3">
+                <a href="#" class="udai_package"><img src="images/mumbai/mumbai_food_01.avif" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"><p>Mumbai Street Food and Evening Bazaar Tour</p></a>
+            </div>
+
+            <div class="col-md-3">
+                <a href="#" class="udai_package"><img src="images/mumbai/mumbai_food_02.avif" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"><p>Mumbai Street Food Tour</p></a>
+            </div>
+             <div class="col-md-3">
+                <a href="#" class="udai_package"><img src="images/mumbai/mumbai_food_03.avif" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"><p>Private Guided Non-Veg Street Food Walking Tour in Muslim Quarter</p></a>
+            </div>
+            <div class="col-md-3">
+                <a href="#" class="udai_package"><img src="images/mumbai/mumbai_food_04.avif" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"><p>Street Food Tour:Listed in the 20 best food tours by The Guardian</p></a>
+            </div>
+        </div>
+    </div>
+
+    <!--Top Attractions around Mumbai -->
+    <div class="container pt-5">
+        <div class="row">
+            <h2 class="content_sec_hdr">Top Attractions around Mumbai</h2>
+            <h6 style="color: gray;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Mumbai is famous as India's "City of Dreams" and the center of the Indian film industry, Bollywood, and for its vibrant street life, large markets, diverse culture, and delicious street food. Key landmarks include the Gateway of India, Marine Drive, and the UNESCO-listed Elephanta Caves. The city also boasts a rich history, seen in its Victorian and Art Deco architecture and heritage sites.</h6>
+            <div class="col-md-3 card discover_card">
+                <a href="#"><img src="images/mumbai/mumbai_top_01.avif" class="card-img-top" style="height: 250px; width:100%; border-radius: 5px;"></a>
+                <div class="card-body">
+                    <a href="#" style="text-decoration: none;"><h6 class="card-title" style="color: brown;">Della Adventure Park</h6></a>
+                </div>
+            </div>
+
+            <div class="col-md-3 card discover_card">
+                <a href="#"><img src="images/mumbai/mumbai_top_02.avif" class="card-img-top" style="height: 250px; width:100%; border-radius: 5px;"></a>
+                <div class="card-body">
+                    <a href="#" style="text-decoration: none;"><h6 class="card-title" style="color: brown;">Imagicaa</h6></a>
+                </div>
+            </div>
+
+            <div class="col-md-3 card discover_card">
+                <a href="#"><img src="images/mumbai/mumbai_top_03.avif" class="card-img-top" style="height: 250px; width:100%; border-radius: 5px;"></a>
+                <div class="card-body">
+                    <a href="#" style="text-decoration: none;"><h6 class="card-title" style="color: brown;">Bhimashankar Temple</h6></a>
+                </div>
+            </div>
+
+            <div class="col-md-3 card discover_card">
+                <a href="#"><img src="images/mumbai/mumbai_top_04.avif" class="card-img-top" style="height: 250px; width:100%; border-radius: 5px;"></a>
+                <div class="card-body">
+                    <a href="#" style="text-decoration: none;"><h6 class="card-title" style="color: brown;">Nerul Balaji Temple</h6></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--  Must Visit Destinations on Mumbai Tour-1 -->
+    <div class="container pt-5">
+        <div class="row">
+            <h2 class="content_sec_hdr">Must Visit Destinations on Mumbai Tour</h2>
+            <h6 style="color: gray;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Mumbai is famous as India's "City of Dreams" and the center of the Indian film industry, Bollywood, and for its vibrant street life, large markets, diverse culture, and delicious street food. Key landmarks include the Gateway of India, Marine Drive, and the UNESCO-listed Elephanta Caves. The city also boasts a rich history, seen in its Victorian and Art Deco architecture and heritage sites.</h6>
+            <h3 style=" font-family:Bilbo Swash Caps, cursive;">Bandra-Worli Sea Link</h3>
+            <div class="col-md-6">
+                <a href="#" style="text-decoration: none;color: black;"><img src="images/mumbai/mumbai_visit_01.avif" style="height: 300px; width: 100%; border-radius: 4px;"></a>
+            </div>
+
+            <div class="col-md-6">
+                <p>
+                   It significantly cuts down commute time between Mumbai's western suburbs and the city center, easing congestion. 
+                   The bridge is considered a prestigious piece of engineering and an iconic part of Mumbai's landscape. 
+                   Visitors can take scenic drives across the bridge, enjoying engineering marvels and nighttime views. 
+                   The Bandra-Worli Sea Link (officially the Rajiv Gandhi Sea Link) is a 5.6 km (3.5 mi), 8-lane cable-stayed bridge in Mumbai, India, connecting Bandra in the west to Worli in the south, reducing travel time from up to 90 minutes to just 10-20 minutes. Opened in 2009, it's an iconic piece of modern infrastructure that alleviates congestion, offers stunning views of the Arabian Sea, and has become a symbol of Mumbai's progress and an attraction for visitors.  
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <!-- How to Reach Mumbai -->
+    <div class="container">
+        <div class="row">
+            <h2 class="content_sec_hdr">How to Reach Mumbai ?</h2>
+            <div class="col-md-3">
+                <img src="images/flight_tr.webp"  height="auto" width="100%">
+            </div>
+            <div class="col-md-3">
+                <span><b style="font-size: 25px;">By Air</b></span><br>
+                <span>Chhatrapati Shivaji Maharaj International Airport (BOM): is Mumbai's main airport, serving both domestic and international flights. It is located in the city's suburbs</span>
+            </div>
+
+            <div class="col-md-3">
+                <img src="images/train.webp"  height="auto" width="100%">
+            </div>
+            <div class="col-md-3">
+                <span><b style="font-size: 25px;">By Train</b></span><br>
+                <span>Major railway stations in Mumbai include Chhatrapati Shivaji Maharaj Terminus (CST), a UNESCO World Heritage Site, and Mumbai Central. These stations connect Mumbai to cities across India.</span>
+            </div>
+        </div>
+     </div>
+
+
+
+    
 
 
     <!-- FOOTER -->
@@ -579,18 +744,18 @@
                 </button>
             </div>
             <!-- about -->
-            <div class="col col-md-3">
+            <div class="col col-md-2">
                 <button type="button" class="btn">
                     <a href="about.html" class="nav-link navclor">About Us</a>
                 </button>
             </div>
             <!-- Contact -->
-            <div class="col col-md-4">
+            <div class="col col-md-2">
                 <button type="button" class="btn">
                     <a href="contact.html" class="nav-link navclor">Contact Us</a>
                 </button>
             </div>
-            <!-- get in touch -->
+             <!-- get in touch -->
             <div class="col col-md-4">
                 <h4 class="pt-4 pb-4" style="color: rgb(145, 58, 11);">Connect with Us</h4>
                 <a href="#" class="ftr_lst_cl_link" id="ftr_facebook"><i class="fa-brands fa-facebook" style="color: blue;"></i></a>

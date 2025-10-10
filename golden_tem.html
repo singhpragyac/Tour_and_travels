@@ -29,18 +29,18 @@
         }
 
         .content_sec_hdr {
-            color:  rgb(59, 45, 36);
-            text-align: center;
+            color:  rgb(0, 0, 0);
             padding: 30px;
-            font-family:Bilbo Swash Caps, cursive;
+           font-family: 'Alfa Slab One', 'serif';
         }
         /* .img_hover {
 	        transition: 2s linear;
         } */
 
         .img_hover:hover {
-        animation-name: pulse;
-        animation-duration: 3s;
+            animation-name: pulse;
+            animation-duration: 3s;
+            box-shadow: 0 4px 8px 0 rgba(234, 21, 6, 0.2), 0 6px 20px 0 rgba(6, 181, 234, 0.2);
         }
         @-webkit-keyframes pulse {
         0% {
@@ -87,6 +87,29 @@
         }
         .ftr_lst_cl_link:hover {
             color: rgb(165, 182, 237);
+        }
+
+        .main {
+            /* background-color: purple; */
+            white-space: nowrap;
+            overflow-x: auto;
+            overflow-y: hidden;
+        }
+
+        .child {
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+            margin: 30px;
+            display: inline-block;
+        }
+        .discover_card:hover {
+            box-shadow: 0 4px 8px 0 rgba(234, 6, 6, 0.2), 0 6px 20px 0 rgba(6, 181, 234, 0.2);
+        }
+        .udai_package {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            text-align: center;
         }
     </style>
 </head>
@@ -248,7 +271,7 @@
                         <div class="col-md-2 ps-5">
                             <div class="dropdown">
                                 <button type="button" class="btn" data-bs-toggle="dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle navclor" role="button">Destinations</a>
+                                    <a href="destination.html" class="nav-link dropdown-toggle navclor" role="button">Destinations</a>
                                 </button>
                                 <div class="dropdown-menu dropstart" style="min-width: 450px;">
                                     <div class="row">
@@ -331,9 +354,10 @@
                     <!-- carousel images -->
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="3000">
-                            <img src="images\contactus_banner.jpg" class="d-block w-100 img_hover" style="height: 300px; width: 100%;">
+                            <img src="images/golden_temp/Golden_Temple.webp" class="d-block w-100 img_hover" style="height: 300px; width: 100%;">
                             <div class="carousel-caption">
-                                <h1 style="color: rgb(106, 135, 143);margin-bottom: 90px;font-family: 'Alfa Slab One', serif;"">Contact Us</h1>
+                                <h4 style="color: rgb(255, 255, 255);  font-family:'Bilbo Swash Caps', cursive;">It's Time to Plan Your</h4>
+                                <h1 style="color: rgb(54, 131, 198);margin-bottom:140px ; font-family: 'Alfa Slab One', 'serif';">Golden Temple Tour</h1>
                             </div>
                         </div>
                     </div> 
@@ -342,26 +366,135 @@
         </div>
     </div>
 
-    <!-- CONTACT US -->
+    <!--  udaipur tour -->
     <div class="container pt-5">
         <div class="row">
-            <div class="col">
-                <h5>Working Hours - (10:00 AM – 6:00 PM. Monday – Saturday)</h5><br>
-                <p style="font-family: Bilbo Swash Caps, cursive;"><b>Landline:</b> +91 11 23415601</p>
-                <p style="font-family: Bilbo Swash Caps, cursive;"><b>Mobile:</b> + 91 9910049132 / 9910048582 / 9354205211 / 9810100293  </p>
-                <p style="font-family: Bilbo Swash Caps, cursive;"><b>Whatsapp:</b>  + 91 9910049132</p>
-                <p style="font-family: Bilbo Swash Caps, cursive;"><b>Address:</b> Flat No. 6,2nd Floor, Above Shop No.1Shankar Market,Connaught Place,New Delhi, 110001, India.Nearest Landmark : Haldiram</p>
+            <div class="col-md-6">
+                <h2 style="color: rgb(147, 192, 232);">Golden Temple Tour Package</h2>
+                <p style="font-size: 18px; font-family: Bilbo Swash Caps, cursive;">
+                   The Golden Temple (Harmandir Sahib) in Amritsar, Punjab, is the holiest shrine in Sikhism and a major pilgrimage and tourist site, renowned for its stunning architecture, spiritual significance, and welcoming atmosphere. Built around a sacred pool, the temple features a prominent golden dome and is open to people of all faiths, embodying the Sikh principle of equality and service.  
+                </p>
+                <p style="font-size: 18px; font-family: Bilbo Swash Caps, cursive;">
+                    The most distinctive feature is the gleaming golden dome, a symbol of beauty and wealth.
+                    The temple is built on a 67-foot square marble base. 
+                    The temple was later renovated, with Maharaja Ranjit Singh covering its upper floors with pure gold in the 19th century.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <img src="images/golden_temp/Golden_Temple_amritsar.webp"  class="img_hover" style="height: auto;width: 100%; border-radius: 5px;">
+            </div>
+        </div>
+    </div> 
 
-                <h5>Director Sales & Marketing</h5>
-                <p style="font-family: Bilbo Swash Caps, cursive;">Mr. Gaurav Chawla</p>
-                <p style="font-family: Bilbo Swash Caps, cursive;"><b>Email:</b> gaurav.chawla@Raavaya.in</p>
-                <p style="font-family: Bilbo Swash Caps, cursive;"><b>Telephone:</b> +91 11 23415601</p>
-                <p style="font-family: Bilbo Swash Caps, cursive;"><b>Mobile:</b> +91-9910049132, 9810100293</p>
+    <!-- book now -->
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-md-6" style="font-weight: 900; color: rgb(176, 152, 119); font-size: 4vw;margin-top: 25px;">Golden Temple Amritsar</div>
+            <div class="col-md-6">
+                <div style="background-color: rgb(247, 225, 225);text-align: center; width: 80%; border-radius: 6px; padding: 8px; margin: auto;">
+                   <p style="color: gray;">Starts From</p>
+                    <h2>₹14,000*</h2>
+                    <a href="booking_form.html"><button type="button" value="book" style="height: 50px; width: 70%; border: none;border-radius: 18px; font-weight: 900;background-color: rgb(232, 75, 75); color: white;">Book Now</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  Golden Temple Night Ceremony -->
+    <div class="container pt-5">
+        <div class="row">
+            <h2 class="content_sec_hdr">Golden Temple Night Ceremony</h2>
+            <h6 style="color: gray;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">The "Golden Temple Night Ceremony" refers to the Palki Sahib, a sacred nightly procession where the Guru Granth Sahib (the holy scripture of Sikhism) is carried in a decorative palanquin (palki) from the Harmandir Sahib (the main sanctum) to the Akal Takht for resting. This ceremony takes place around 10:30 PM and is followed by Ardas (a prayer) and the singing of holy songs, symbolizing deep respect for the scripture as if it were a living Guru.</h6>
+            <div class="col-md-3">
+                <a href="#" class="udai_package"><img src="images/golden_temp/golden_tm_nyt_01.jpg" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"></a>
+            </div>
+
+            <div class="col-md-3">
+                <a href="#" class="udai_package"><img src="images/golden_temp/golden_tm_nyt_02.jpg" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"></a>
+            </div>
+
+            <div class="col-md-3">
+                <a href="#" class="udai_package"><img src="images/golden_temp/golden_tm_nyt_04.jpg" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"></a>
+            </div>
+            <div class="col-md-3">
+                <a href="#" class="udai_package"><img src="images//golden_temp/golden_tm_nyt_03.jpg" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"></a>
             </div>
         </div>
     </div> 
 
 
+
+    <!--  Must Visit international border Panjab -->
+    <div class="container pt-5">
+        <div class="row">
+            <h2 class="content_sec_hdr">Must Visit International Border, Panjab</h2>
+            <h6 style="color: gray;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">The "Golden Temple Night Ceremony" refers to the Palki Sahib, a sacred nightly procession where the Guru Granth Sahib (the holy scripture of Sikhism) is carried in a decorative palanquin (palki) from the Harmandir Sahib (the main sanctum) to the Akal Takht for resting. This ceremony takes place around 10:30 PM and is followed by Ardas (a prayer) and the singing of holy songs, symbolizing deep respect for the scripture as if it were a living Guru. </h6>
+            <h3 style=" font-family:Bilbo Swash Caps, cursive;">Wagah Border</h3>
+            <div class="col-md-6">
+                <a href="#" style="text-decoration: none;color: black;"><img src="images/golden_temp/Golden_visit_02.webp" style="height: 300px; width: 100%; border-radius: 4px;"></a>
+                
+            </div>
+
+            <div class="col-md-6">
+                <p>
+                   The international border between India and Pakistan. The pomp and pageantry of the Beating Retreat and the Change of Guard within handshaking distance of the Indian and Pakistani forces makes for a most charming spectacle. Wagah, an army outpost on Indo-Pak border – between Amritsar and Lahore, is an elaborate complex of buildings, roads and barriers on both sides. The daily highlight is the evening “Beating the Retreat” ceremony. Soldiers from both countries march in perfect drill, going through the steps of bringing down their respective national flags. As the sun goes down, nationalistic fervour rises and lights are switched on marking the end of the day amidst thunderous applause.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- best time to visit -->
+    <div class="container">
+        <div class="row">
+            <h2 class="content_sec_hdr">Best Time to Visit</h2>
+            <div class="col-md-4">
+                <img src="images/golden_temp/gol_wagah.jpeg"  height="auto" width="100%">
+            </div>
+            <div class="col-md-8">
+                <span><b style="font-size: 25px;">Winter</b></span><br>
+                <span>Winter (mid-November to February): This is the most pleasant time to visit, with moderate temperatures ideal for sightseeing.</span>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    
+    <!-- How to Reach Udaipur -->
+    <!-- <div class="container">
+        <div class="row">
+            <h2 class="content_sec_hdr">How to Reach Udaipur ?</h2>
+            <div class="col-md-2">
+                <img src="images/flight_tr.webp"  height="auto" width="100%">
+            </div>
+            <div class="col-md-2">
+                <span><b style="font-size: 25px;">By Air</b></span><br>
+                <span>This is the main airport, located about 22 km east of the city center.</span>
+            </div>
+
+            <div class="col-md-2">
+                <img src="images/train.webp"  height="auto" width="100%">
+            </div>
+            <div class="col-md-2">
+                <span><b style="font-size: 25px;">By Train</b></span><br>
+                <span>Udaipur has two railway stations: Udaipur City and Rana Pratap Nagar.</span>
+            </div>
+
+            <div class="col-md-2">
+                <img src="images/bus.webp"  height="auto" width="100%">
+            </div>
+            <div class="col-md-2">
+                <span><b style="font-size: 25px;">By Bus</b></span><br>
+                <span>Private cabs and rental services are also available for travel to Udaipur.</span>
+            </div>
+        </div>
+     </div> -->
+
+
+
+    
 
 
     <!-- FOOTER -->
@@ -579,18 +712,18 @@
                 </button>
             </div>
             <!-- about -->
-            <div class="col col-md-3">
+            <div class="col col-md-2">
                 <button type="button" class="btn">
                     <a href="about.html" class="nav-link navclor">About Us</a>
                 </button>
             </div>
             <!-- Contact -->
-            <div class="col col-md-4">
+            <div class="col col-md-2">
                 <button type="button" class="btn">
                     <a href="contact.html" class="nav-link navclor">Contact Us</a>
                 </button>
             </div>
-            <!-- get in touch -->
+             <!-- get in touch -->
             <div class="col col-md-4">
                 <h4 class="pt-4 pb-4" style="color: rgb(145, 58, 11);">Connect with Us</h4>
                 <a href="#" class="ftr_lst_cl_link" id="ftr_facebook"><i class="fa-brands fa-facebook" style="color: blue;"></i></a>

@@ -29,18 +29,18 @@
         }
 
         .content_sec_hdr {
-            color:  rgb(59, 45, 36);
-            text-align: center;
+            color:  rgb(0, 0, 0);
             padding: 30px;
-            font-family:Bilbo Swash Caps, cursive;
+           font-family: 'Alfa Slab One', 'serif';
         }
         /* .img_hover {
 	        transition: 2s linear;
         } */
 
         .img_hover:hover {
-        animation-name: pulse;
-        animation-duration: 3s;
+            animation-name: pulse;
+            animation-duration: 3s;
+            box-shadow: 0 4px 8px 0 rgba(234, 21, 6, 0.2), 0 6px 20px 0 rgba(6, 181, 234, 0.2);
         }
         @-webkit-keyframes pulse {
         0% {
@@ -87,6 +87,29 @@
         }
         .ftr_lst_cl_link:hover {
             color: rgb(165, 182, 237);
+        }
+
+        .main {
+            /* background-color: purple; */
+            white-space: nowrap;
+            overflow-x: auto;
+            overflow-y: hidden;
+        }
+
+        .child {
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+            margin: 30px;
+            display: inline-block;
+        }
+        .discover_card:hover {
+            box-shadow: 0 4px 8px 0 rgba(234, 6, 6, 0.2), 0 6px 20px 0 rgba(6, 181, 234, 0.2);
+        }
+        .udai_package {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            text-align: center;
         }
     </style>
 </head>
@@ -248,7 +271,7 @@
                         <div class="col-md-2 ps-5">
                             <div class="dropdown">
                                 <button type="button" class="btn" data-bs-toggle="dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle navclor" role="button">Destinations</a>
+                                    <a href="destination.html" class="nav-link dropdown-toggle navclor" role="button">Destinations</a>
                                 </button>
                                 <div class="dropdown-menu dropstart" style="min-width: 450px;">
                                     <div class="row">
@@ -331,9 +354,10 @@
                     <!-- carousel images -->
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="3000">
-                            <img src="images\contactus_banner.jpg" class="d-block w-100 img_hover" style="height: 300px; width: 100%;">
+                            <img src="images/chardham/chardham_banner_01.jpg" class="d-block w-100 img_hover" style="height: 300px; width: 100%;">
                             <div class="carousel-caption">
-                                <h1 style="color: rgb(106, 135, 143);margin-bottom: 90px;font-family: 'Alfa Slab One', serif;"">Contact Us</h1>
+                                <h4 style="color: rgb(255, 255, 255);  font-family:'Bilbo Swash Caps', cursive;">It's Time to Plan Your</h4>
+                                <h1 style="color: rgb(213, 75, 44);margin-bottom:160px ; font-family: 'Alfa Slab One', 'serif';">Uttarakhand Tour</h1>
                             </div>
                         </div>
                     </div> 
@@ -342,25 +366,106 @@
         </div>
     </div>
 
-    <!-- CONTACT US -->
+    <!--  Agra tour -->
     <div class="container pt-5">
         <div class="row">
-            <div class="col">
-                <h5>Working Hours - (10:00 AM – 6:00 PM. Monday – Saturday)</h5><br>
-                <p style="font-family: Bilbo Swash Caps, cursive;"><b>Landline:</b> +91 11 23415601</p>
-                <p style="font-family: Bilbo Swash Caps, cursive;"><b>Mobile:</b> + 91 9910049132 / 9910048582 / 9354205211 / 9810100293  </p>
-                <p style="font-family: Bilbo Swash Caps, cursive;"><b>Whatsapp:</b>  + 91 9910049132</p>
-                <p style="font-family: Bilbo Swash Caps, cursive;"><b>Address:</b> Flat No. 6,2nd Floor, Above Shop No.1Shankar Market,Connaught Place,New Delhi, 110001, India.Nearest Landmark : Haldiram</p>
-
-                <h5>Director Sales & Marketing</h5>
-                <p style="font-family: Bilbo Swash Caps, cursive;">Mr. Gaurav Chawla</p>
-                <p style="font-family: Bilbo Swash Caps, cursive;"><b>Email:</b> gaurav.chawla@Raavaya.in</p>
-                <p style="font-family: Bilbo Swash Caps, cursive;"><b>Telephone:</b> +91 11 23415601</p>
-                <p style="font-family: Bilbo Swash Caps, cursive;"><b>Mobile:</b> +91-9910049132, 9810100293</p>
+            <div class="col-md-6">
+                <h2 style="color: rgb(204, 103, 81);">Char Dham Tour</h2>
+                <p style="font-size: 18px; font-family: Bilbo Swash Caps, cursive;">
+                  The Char Dham refers to four holy Himalayan shrines in Uttarakhand: Yamunotri, dedicated to the Goddess Yamuna; Gangotri, dedicated to the Goddess Ganga; Kedarnath, dedicated to Lord Shiva; and Badrinath, dedicated to Lord Vishnu. The pilgrimage, or Char Dham Yatra, is an important journey for Hindus, believed to grant spiritual blessings and salvation. The shrines are open for approximately six months, typically from May to June and September to October.  
+                </p>
+                <p style="font-size: 18px; font-family: Bilbo Swash Caps, cursive;">
+                    <b>Yamunotri:</b> The source of the Yamuna River, considered the second-most sacred river in India. <br>
+                    <b>Gangotri:</b> The source of the sacred Ganga River, named after the ancient King Bhagirath. <br>
+                    <b>Kedarnath:</b> A Jyotirlinga shrine for Lord Shiva, located near the Mandakini River. <br>
+                    <b>Badrinath:</b> A temple dedicated to Lord Vishnu, situated on the banks of the Alaknanda River. 
+                </p>
+                <!-- <p style="font-size: 18px; font-family: Bilbo Swash Caps, cursive;">
+                    The high-altitude shrines remain shut for around six months every year, opening in summers (April or May) and closing with the onset of winter (October or November). It is believed that one should complete the Char Dham Yatra in a clockwise direction. Hence, the pilgrimage starts from Yamunotri, proceeds towards Gangotri, onto Kedarnath, and finally ends at Badrinath. The journey can be completed by road or by air (helicopter services are available). Some devotees even do a Do Dham Yatra or a pilgrimage to two shrines - Kedarnath and Badrinath.
+                </p>
+                <p style="font-size: 18px; font-family: Bilbo Swash Caps, cursive;">
+                    The Yamunotri temple, lodged in a narrow gorge close to the source of River Yamuna (the second-most sacred Indian river after River Ganga) in Uttarkashi district, is dedicated to Goddess Yamuna. The district of Uttarkashi is also home to Gangotri dedicated to Goddess Ganga, the most sacred of all Indian rivers. Located in the Rudraprayag district lies Kedarnath, dedicated to Lord Shiva. Badrinath, home to the sacred Badrinarayan Temple, is dedicated to Lord Vishnu. The Char Dham Yatra is as divine as it is arduous but fulfills the soul!
+                </p> -->
             </div>
+            <div class="col-md-6">
+                <img src="images/chardham/chardham__04.jpg"  class="img_hover" style="height: auto;width: 100%; border-radius: 5px;">
+            </div>
+        </div>
+    </div>
+    
+    <!-- book now -->
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-md-7" style="font-weight: 900; color: rgb(211, 133, 107); font-size: 4vw; margin-top: 25px;">Char Dham,Uttarakhand</div>
+            <div class="col-md-5">
+                <div style="background-color: rgb(247, 225, 225);text-align: center; width: 80%; border-radius: 6px; padding: 8px; margin: auto;">
+                   <p style="color: gray;">Starts From</p>
+                    <h2>₹21,000*</h2>
+                    <a href="booking_form.html"><button type="button" value="book" style="height: 50px; width: 70%; border: none;border-radius: 18px; font-weight: 900;background-color: rgb(232, 75, 75); color: white;">Book Now</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  Char Dham Yatra -->
+    <div class="container pt-5">
+        <div class="row">
+            <h1 class="content_sec_hdr">Char Dham Yatra</h1>
+            <h4>The Spiritual Retreat in The Himalayas...</h4>
+            <h6 style="color: gray;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">The high-altitude shrines remain shut for around six months every year, opening in summers (April or May) and closing with the onset of winter (October or November). It is believed that one should complete the Char Dham Yatra in a clockwise direction. Hence, the pilgrimage starts from Yamunotri, proceeds towards Gangotri, onto Kedarnath, and finally ends at Badrinath. The journey can be completed by road or by air (helicopter services are available). Some devotees even do a Do Dham Yatra or a pilgrimage to two shrines - Kedarnath and Badrinath.</h6>
+            <div class="col-md-3">
+                <div class="card discover_card">
+                    <a href="#"><img src="images/chardham/chardham__yam_01.jpg" class="card-img-top" style="height: 250px; width:100%;"></a>
+                    <div class="card-body">
+                        <a href="#" style="text-decoration: none;"><h4 class="card-title" style="color: brown;">Yamunotri</h4></a>
+                    </div>
+                </div>
+           </div>
+
+           <div class="col-md-3">
+                <div class="card discover_card">
+                    <a href="#"><img src="images/chardham/chardham_gan_01.jpg" class="card-img-top" style="height: 250px; width:100%;"></a>
+                    <div class="card-body">
+                        <a href="#" style="text-decoration: none;"><h4 class="card-title" style="color: brown;">Gangotri</h4></a>
+                    </div>
+                </div>
+           </div>
+
+            <div class="col-md-3">
+                <div class="card discover_card">
+                    <a href="#"><img src="images/chardham/chardham_ked_01.jpg" class="card-img-top" style="height: 250px; width:100%;"></a>
+                    <div class="card-body">
+                        <a href="#" style="text-decoration: none;"><h4 class="card-title" style="color: brown;">Kedarnath</h4></a>
+                    </div>
+                </div>
+           </div>
+
+            <div class="col-md-3">
+                <div class="card discover_card">
+                    <a href="#"><img src="images/chardham/chardham_bad_01.jpg" class="card-img-top" style="height: 250px; width:100%;"></a>
+                    <div class="card-body">
+                        <a href="#" style="text-decoration: none;"><h4 class="card-title" style="color: brown;">Badrinath</h4></a>
+                    </div>
+                </div>
+           </div>
         </div>
     </div> 
 
+
+
+    <!-- By Road -->
+    <div class="container pt-5">
+        <div class="row">
+            <h2 class="content_sec_hdr">How to Reach Char Dham ?</h2>
+            <div class="col-md-3">
+                <img src="images/bus.webp"  height="auto" width="100%">
+            </div>
+            <div class="col-md-9">
+                <span><b style="font-size: 25px;">By Road</b></span><br>
+                <span>You can hire private vehicles, taxis, or board inter-state/intra-state buses.</span>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -406,7 +511,7 @@
                 Delhi, 110001, India.
             </div>
 
-            <div class="col-md-4 ps-5">
+           <div class="col-md-4 ps-5">
                 <h2 style="color: brown; font-family: cursive">Raavaya</h2>
                 <a href="https://www.facebook.com/" class="ftr_lst_cl_link" id="ftr_facebook"><i class="fa-brands fa-facebook"></i></a>
                 <a href="https://x.com/" class="ftr_lst_cl_link" id="ftr_twitter"><i class="fa-brands fa-x-twitter"></i></a>
@@ -579,18 +684,18 @@
                 </button>
             </div>
             <!-- about -->
-            <div class="col col-md-3">
+            <div class="col col-md-2">
                 <button type="button" class="btn">
                     <a href="about.html" class="nav-link navclor">About Us</a>
                 </button>
             </div>
             <!-- Contact -->
-            <div class="col col-md-4">
+            <div class="col col-md-2">
                 <button type="button" class="btn">
                     <a href="contact.html" class="nav-link navclor">Contact Us</a>
                 </button>
             </div>
-            <!-- get in touch -->
+             <!-- get in touch -->
             <div class="col col-md-4">
                 <h4 class="pt-4 pb-4" style="color: rgb(145, 58, 11);">Connect with Us</h4>
                 <a href="#" class="ftr_lst_cl_link" id="ftr_facebook"><i class="fa-brands fa-facebook" style="color: blue;"></i></a>

@@ -29,18 +29,18 @@
         }
 
         .content_sec_hdr {
-            color:  rgb(59, 45, 36);
-            text-align: center;
+            color:  rgb(0, 0, 0);
             padding: 30px;
-            font-family:Bilbo Swash Caps, cursive;
+           font-family: 'Alfa Slab One', 'serif';
         }
         /* .img_hover {
 	        transition: 2s linear;
         } */
 
         .img_hover:hover {
-        animation-name: pulse;
-        animation-duration: 3s;
+            animation-name: pulse;
+            animation-duration: 3s;
+            box-shadow: 0 4px 8px 0 rgba(234, 21, 6, 0.2), 0 6px 20px 0 rgba(6, 181, 234, 0.2);
         }
         @-webkit-keyframes pulse {
         0% {
@@ -87,6 +87,29 @@
         }
         .ftr_lst_cl_link:hover {
             color: rgb(165, 182, 237);
+        }
+
+        .main {
+            /* background-color: purple; */
+            white-space: nowrap;
+            overflow-x: auto;
+            overflow-y: hidden;
+        }
+
+        .child {
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+            margin: 30px;
+            display: inline-block;
+        }
+        .discover_card:hover {
+            box-shadow: 0 4px 8px 0 rgba(234, 6, 6, 0.2), 0 6px 20px 0 rgba(6, 181, 234, 0.2);
+        }
+        .udai_package {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            text-align: center;
         }
     </style>
 </head>
@@ -248,7 +271,7 @@
                         <div class="col-md-2 ps-5">
                             <div class="dropdown">
                                 <button type="button" class="btn" data-bs-toggle="dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle navclor" role="button">Destinations</a>
+                                    <a href="destination.html" class="nav-link dropdown-toggle navclor" role="button">Destinations</a>
                                 </button>
                                 <div class="dropdown-menu dropstart" style="min-width: 450px;">
                                     <div class="row">
@@ -331,9 +354,10 @@
                     <!-- carousel images -->
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="3000">
-                            <img src="images\contactus_banner.jpg" class="d-block w-100 img_hover" style="height: 300px; width: 100%;">
+                            <img src="images/kerala/kerala_banner.jpg" class="d-block w-100 img_hover" style="height: 300px; width: 100%;">
                             <div class="carousel-caption">
-                                <h1 style="color: rgb(106, 135, 143);margin-bottom: 90px;font-family: 'Alfa Slab One', serif;"">Contact Us</h1>
+                                <h4 style="color: rgb(255, 255, 255);font-family:'Bilbo Swash Caps', cursive;">It's Time to Plan Your</h4>
+                                <h1 style="color: rgb(240, 217, 44);font-family: 'Alfa Slab One', 'serif';">Kerala Tour</h1>
                             </div>
                         </div>
                     </div> 
@@ -342,27 +366,252 @@
         </div>
     </div>
 
-    <!-- CONTACT US -->
+    <!--  Kerala tour -->
     <div class="container pt-5">
         <div class="row">
-            <div class="col">
-                <h5>Working Hours - (10:00 AM – 6:00 PM. Monday – Saturday)</h5><br>
-                <p style="font-family: Bilbo Swash Caps, cursive;"><b>Landline:</b> +91 11 23415601</p>
-                <p style="font-family: Bilbo Swash Caps, cursive;"><b>Mobile:</b> + 91 9910049132 / 9910048582 / 9354205211 / 9810100293  </p>
-                <p style="font-family: Bilbo Swash Caps, cursive;"><b>Whatsapp:</b>  + 91 9910049132</p>
-                <p style="font-family: Bilbo Swash Caps, cursive;"><b>Address:</b> Flat No. 6,2nd Floor, Above Shop No.1Shankar Market,Connaught Place,New Delhi, 110001, India.Nearest Landmark : Haldiram</p>
-
-                <h5>Director Sales & Marketing</h5>
-                <p style="font-family: Bilbo Swash Caps, cursive;">Mr. Gaurav Chawla</p>
-                <p style="font-family: Bilbo Swash Caps, cursive;"><b>Email:</b> gaurav.chawla@Raavaya.in</p>
-                <p style="font-family: Bilbo Swash Caps, cursive;"><b>Telephone:</b> +91 11 23415601</p>
-                <p style="font-family: Bilbo Swash Caps, cursive;"><b>Mobile:</b> +91-9910049132, 9810100293</p>
+            <div class="col-md-6">
+                <h2 style="color: rgb(204, 223, 110);">Kerala Tour Package</h2>
+                <p style="font-size: 18px; font-family: Bilbo Swash Caps, cursive;">
+                 A Kerala tour offers lush tea gardens in Munnar, serene backwaters in Alleppey, cultural experiences in the port city of Kochi, and the tranquil green forests of Wayanad. Best visited between September and March, typical trips involve exploring these key areas over several days, with activities ranging from houseboat cruises to sightseeing in tea estates and enjoying the local cuisine.  
+                </p>
+                <p style="font-size: 18px; font-family: Bilbo Swash Caps, cursive;">
+                 The winter season, from September to March, is considered the best time to visit Kerala to enjoy the pleasant weather and beautiful surroundings. 
+                </p>
             </div>
+            <div class="col-md-6">
+                <img src="images/leh/leh_01.jpg"  class="img_hover" style="height: auto;width: 100%; border-radius: 5px;">
+            </div>
+        </div>
+    </div>
+    
+    <!-- book now -->
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-md-7" style="font-weight: 900; color: rgb(167, 173, 87); font-size: 4vw;margin-top: 25px;">Kerala</div>
+            <div class="col-md-5">
+                <div style="background-color: rgb(247, 225, 225);text-align: center; width: 80%; border-radius: 6px; padding: 8px; margin: auto;">
+                   <p style="color: gray;">Starts From</p>
+                    <h2>₹14,000*</h2>
+                    <a href="booking_form.html"><button type="button" value="book" style="height: 50px; width: 70%; border: none;border-radius: 18px; font-weight: 900;background-color: rgb(232, 75, 75); color: white;">Book Now</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  Kerala Popular Tour Packages-1 -->
+    <div class="container pt-5">
+        <div class="row">
+            <h2 class="content_sec_hdr">Popular Tour Packages of Kerala</h2>
+            <div class="col-md-4">
+                <div class="card discover_card">
+                    <a href="#"><img src="images/kerala/kerala_pr_01.jpg" class="card-img-top" style="height: 250px; width:100%;"></a>
+                    <div class="card-body">
+                        <a href="#" style="text-decoration: none;"><h4 class="card-title" style="color: rgb(30, 137, 0);">Premium 4N Kerala Vacay </h4><p style="color: rgb(78, 58, 58);">2N Munnar, 1N Thekkady, 1N Alleppey</p><h6 style="color: rgb(235, 151, 151);">₹47,941 /Person</h6></a>
+                    </div>
+                </div>
+           </div>
+            <div class="col-md-4">
+                <div class="card discover_card">
+                    <a href="#"><img src="images/kerala/kerala_pr_02.jpg" class="card-img-top" style="height: 250px; width:100%;"></a>
+                    <div class="card-body">
+                       <a href="#" style="text-decoration: none;"><h4 class="card-title" style="color: rgb(30, 137, 0);">Romantic Kerala Vacay</h4><p style="color: rgb(78, 58, 58);">2N Munnar, 1N Thekkady, 1N Alleppey</p><h6 style="color: rgb(235, 151, 151);">₹44,430 /Person</h6></a>
+                    </div>
+                </div>
+           </div>
+
+            <div class="col-md-4">
+                <div class="card discover_card">
+                    <a href="#"><img src="images/kerala/kerala_pr_03.jpg" class="card-img-top" style="height: 250px; width:100%;"></a>
+                    <div class="card-body">
+                       <a href="#" style="text-decoration: none;"><h4 class="card-title" style="color: rgb(30, 137, 0);">Kerala for Nature Lovers</h4><p style="color: rgb(78, 58, 58);">2D Munnar,2D Thekkady, 2D Alleppey</p><h6 style="color: rgb(235, 151, 151);">₹44,930 /Person</h6></a>
+                    </div>
+                </div>
+           </div>
+        </div>
+    </div>
+
+    <!-- 06 Days Kerala Tour – Special offer -->
+    <div class="container pt-5">
+        <div class="row">
+            <h2 class="content_sec_hdr" style="color: rgb(87, 139, 9);">05 Days Kerala Tour - Special offer*</h2>
+            
+            <div class="col-md-4">
+               <p><b>Duration</b> <br> 5 Nights 6 Days</p>
+            </div>
+             <div class="col-md-4">
+               <p><b>Tour Type</b><br> Standard Tour Packages</p>
+            </div>
+             <div class="col-md-4">
+               <p><b>Group Size</b> <br> 2 - 50 pax</p>
+            </div>
+
+            <div class="col-md-12">
+                <img src="images/kerala/kerala_6day_02.jpg" style="height: 300px; width: 100%; border-radius: 4px;">
+            </div>
+            <p class="pt-5"><b>COCHIN</b> | <b>MUNNAR</b> | <b>THEKKEADY</b> | <b>ALLEPPEY</b></p>
         </div>
     </div> 
 
+    <div class="container pt-2">
+        <div class="row">
+            <!-- Day-1 -->
+            <div class="col-md-12">
+                <h2 class="content_sec_hdr">Day 01: Cochin (35 Kms/1 Hr Drive)</h2>
+            </div>
+            <div class="col-md-2">
+                <img src="images/kerala/kerala_day_01.jpg" width="100%">
+            </div>
+            <div class="col-md-10">
+                You are greeted on arrival at Cochin Airport/Railway station by our representative and thereafter transfer to the hotel. After refresh continue with the local sightseeing tour ,here you can see the St Francis Church, the oldest Church in India, 500 year old Portuguese Houses, Chinese fishing nets, 16th century Synagogue, Jew Town and Mattancherry Palace, built by Portuguese, this Palace contains some of India’s most beautiful murals. Stay overnight at The Classik Fort - Deluxe A/c. (NB - Jewish synagogue, Mattancherry Palace etc are closed on all Fridays & Saturdays)
+            </div>
+
+            <!-- Day-2 -->
+            <div class="col-md-12 mt-5">
+                <h2 class="content_sec_hdr">Day 02: Munnar (130 Kms/4 Hrs drive)</h2>
+            </div>
+            <div class="col-md-2">
+                <img src="images/kerala/kerala_day_02.jpg" width="100%">
+            </div>
+            <div class="col-md-10">
+                Morning after breakfast drive to Munnar a hill station(130 Kms/4 Hrs drive), located 1600 meters above sea level. Once the summer resort of the erstwhile British administration in South India it still retains its colonial charm and is famous for its tea plantations, most of which are privately owned. With its sprawling estates, rolling hills, sparkling waterfalls, picture postcard hamlets and undulating valleys, Munnar is an ideal holiday destination. En route visiting Cheyyapara & Valara waterfalls. Check into your hotel and unwind. Rest of the day at leisure to enjoy the ambience of Munnar.
+            </div>
+
+            <!-- Day-3 -->
+            <div class="col-md-12 mt-5">
+                <h2 class="content_sec_hdr">Day 03: Thekkady (110 Kms/3.5 Hrs drive)</h2>
+            </div>
+            <div class="col-md-2">
+                <img src="images/kerala/kerala_day_04.jpg" width="100%">
+            </div>
+            <div class="col-md-10">
+                Moring after breakfast 9 AM drive to Thekkady(110 Kms/3.5 Hrs drive), an area known for its undulating hills, spice plantations, and elephant sightings. One of the 27 wildlife reserves in India, the Periyar valley in Thekkady is the oldest. Check into your hotel. Afternoon you can go for boat cruise in the Lake to watch wild animals is an option (Inside the sanctuary). Pls make the prior reservation for boating through http://www.ktdc-boating.com/ (preferable timing are 1.45 pm or 3.30 pm). You can also explore the activities like Elephant ride, Spice Plantation tour, Jeep Safari etc,
+            </div>
+
+            <!-- Day-4 -->
+            <div class="col-md-12 mt-5">
+                <h2 class="content_sec_hdr">Day 04: Alleppey (140 Kms/4 Hrs drive)</h2>
+            </div>
+            <div class="col-md-2">
+                <img src="images/kerala/kerala_day_05.jpg" width="100%">
+            </div>
+            <div class="col-md-10">
+               Another morning drive, this time, to Alleppey, popularly called the Venice of the East, to see the winding canals and an amazing network of backwaters. On arrival, you will be checking in to a traditional Kerala houseboat which will take you on a fabulous tour of the backwaters
+            </div>
+
+            <!-- Day-5 -->
+            <div class="col-md-12 mt-5">
+                <h2 class="content_sec_hdr">Day 05: Departure (30 Min drive)</h2>
+            </div>
+            <div class="col-md-12">
+              Departure Transfer to Cochin International Airport/Railway station for onward journey.
+            </div>
+            
+            <div class="col-md-12">
+                <h3 class="content_sec_hdr">Total cost -- 52,000</h3>
+            </div>
+        </div>
+    </div>
 
 
+
+    <!--  Kerala Popular Tour Packages-2 -->
+    <div class="container pt-5">
+        <div class="row">
+            <h2 class="content_sec_hdr">Popular Tour Packages of Kerala</h2>
+            <div class="col-md-4">
+                <div class="card discover_card">
+                    <a href="#"><img src="images/kerala/kerala_pr_01.jpg" class="card-img-top" style="height: 250px; width:100%;"></a>
+                    <div class="card-body">
+                        <a href="#" style="text-decoration: none;"><h4 class="card-title" style="color: rgb(30, 137, 0);">Premium 4N Kerala Vacay </h4><p style="color: rgb(78, 58, 58);">2N Munnar, 1N Thekkady, 1N Alleppey</p><h6 style="color: rgb(235, 151, 151);">₹47,941 /Person</h6></a>
+                    </div>
+                </div>
+           </div>
+            <div class="col-md-4">
+                <div class="card discover_card">
+                    <a href="#"><img src="images/kerala/kerala_pr_02.jpg" class="card-img-top" style="height: 250px; width:100%;"></a>
+                    <div class="card-body">
+                       <a href="#" style="text-decoration: none;"><h4 class="card-title" style="color: rgb(30, 137, 0);">Romantic Kerala Vacay</h4><p style="color: rgb(78, 58, 58);">2N Munnar, 1N Thekkady, 1N Alleppey</p><h6 style="color: rgb(235, 151, 151);">₹44,430 /Person</h6></a>
+                    </div>
+                </div>
+           </div>
+
+            <div class="col-md-4">
+                <div class="card discover_card">
+                    <a href="#"><img src="images/kerala/kerala_pr_03.jpg" class="card-img-top" style="height: 250px; width:100%;"></a>
+                    <div class="card-body">
+                       <a href="#" style="text-decoration: none;"><h4 class="card-title" style="color: rgb(30, 137, 0);">Kerala for Nature Lovers</h4><p style="color: rgb(78, 58, 58);">2D Munnar,2D Thekkady, 2D Alleppey</p><h6 style="color: rgb(235, 151, 151);">₹44,930 /Person</h6></a>
+                    </div>
+                </div>
+           </div>
+        </div>
+    </div>
+
+    <!--  Our Hotels Kerala -->
+    <div class="container pt-5">
+        <div class="row">
+            <h2 class="content_sec_hdr">Our Hotels in Kerala</h2>
+            <div class="col-md-3">
+                <a href="#" class="udai_package"><img src="images/leh/leh_camp_01.jpg" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"></a>
+            </div>
+
+            <div class="col-md-3">
+                <a href="#" class="udai_package"><img src="images/leh/leh_camp_02.jpg" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"></a>
+            </div>
+
+            <div class="col-md-3">
+                <a href="#" class="udai_package"><img src="images/leh/leh_camp_03.jpg" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"></a>
+            </div>
+
+            <div class="col-md-3">
+                <a href="#" class="udai_package"><img src="images/leh/leh_camp_04.jpg" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- How to Reach up -->
+
+    <!-- By Air -->
+    <div class="container">
+        <div class="row">
+            <h2 class="content_sec_hdr">How to Reach Kerala ?</h2>
+            <div class="col-md-3">
+                <img src="images/flight_tr.webp"  height="auto" width="100%">
+            </div>
+            <div class="col-md-9">
+                <span><b style="font-size: 25px;">By Air</b></span><br>
+                <span>This is the quickest way to reach Leh, taking approximately 1 to 2 hours from Delhi.</span>
+                <p>Flights arrive at Kushok Bakula Rimpochee Airport (KBT) in Leh, the only airport in the region.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- By Train -->
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="images/train.webp"  height="auto" width="100%">
+            </div>
+            <div class="col-md-9">
+                <span><b style="font-size: 25px;">By Train</b></span><br>
+                <span><b>No Direct Connectivity: </b>There are no direct train services to Leh. </span>
+                <p><b>Nearest Stations:</b> You can take a train to Jammu Tawi (about 663 km away) or Banihal (about 510 km away).</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- By Road -->
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="images/bus.webp"  height="auto" width="100%">
+            </div>
+            <div class="col-md-9">
+                <span><b style="font-size: 25px;">By Road</b></span><br>
+                <span><b>Srinagar-Leh Highway:</b> A 434 km route that passes through Drass and Kargil.</span>
+                <p><b>Manali-Leh Highway:</b> A scenic route crossing five high-altitude passes.</p>
+            </div>
+        </div>
+    </div>
 
     <!-- FOOTER -->
     <div class="container-fluid bg-primary-subtle pt-5 mt-5">
@@ -579,18 +828,18 @@
                 </button>
             </div>
             <!-- about -->
-            <div class="col col-md-3">
+            <div class="col col-md-2">
                 <button type="button" class="btn">
                     <a href="about.html" class="nav-link navclor">About Us</a>
                 </button>
             </div>
             <!-- Contact -->
-            <div class="col col-md-4">
+            <div class="col col-md-2">
                 <button type="button" class="btn">
                     <a href="contact.html" class="nav-link navclor">Contact Us</a>
                 </button>
             </div>
-            <!-- get in touch -->
+             <!-- get in touch -->
             <div class="col col-md-4">
                 <h4 class="pt-4 pb-4" style="color: rgb(145, 58, 11);">Connect with Us</h4>
                 <a href="#" class="ftr_lst_cl_link" id="ftr_facebook"><i class="fa-brands fa-facebook" style="color: blue;"></i></a>

@@ -29,18 +29,18 @@
         }
 
         .content_sec_hdr {
-            color:  rgb(59, 45, 36);
-            text-align: center;
+            color:  rgb(0, 0, 0);
             padding: 30px;
-            font-family:Bilbo Swash Caps, cursive;
+           font-family: 'Alfa Slab One', 'serif';
         }
         /* .img_hover {
 	        transition: 2s linear;
         } */
 
         .img_hover:hover {
-        animation-name: pulse;
-        animation-duration: 3s;
+            animation-name: pulse;
+            animation-duration: 3s;
+            box-shadow: 0 4px 8px 0 rgba(234, 21, 6, 0.2), 0 6px 20px 0 rgba(6, 181, 234, 0.2);
         }
         @-webkit-keyframes pulse {
         0% {
@@ -87,6 +87,29 @@
         }
         .ftr_lst_cl_link:hover {
             color: rgb(165, 182, 237);
+        }
+
+        .main {
+            /* background-color: purple; */
+            white-space: nowrap;
+            overflow-x: auto;
+            overflow-y: hidden;
+        }
+
+        .child {
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+            margin: 30px;
+            display: inline-block;
+        }
+        .discover_card:hover {
+            box-shadow: 0 4px 8px 0 rgba(234, 6, 6, 0.2), 0 6px 20px 0 rgba(6, 181, 234, 0.2);
+        }
+        .udai_package {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            text-align: center;
         }
     </style>
 </head>
@@ -248,7 +271,7 @@
                         <div class="col-md-2 ps-5">
                             <div class="dropdown">
                                 <button type="button" class="btn" data-bs-toggle="dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle navclor" role="button">Destinations</a>
+                                    <a href="destination.html" class="nav-link dropdown-toggle navclor" role="button">Destinations</a>
                                 </button>
                                 <div class="dropdown-menu dropstart" style="min-width: 450px;">
                                     <div class="row">
@@ -331,9 +354,10 @@
                     <!-- carousel images -->
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="3000">
-                            <img src="images\contactus_banner.jpg" class="d-block w-100 img_hover" style="height: 300px; width: 100%;">
+                            <img src="images/udaipur/udaipur-rajasthan.jpeg" class="d-block w-100 img_hover" style="height: 300px; width: 100%;">
                             <div class="carousel-caption">
-                                <h1 style="color: rgb(106, 135, 143);margin-bottom: 90px;font-family: 'Alfa Slab One', serif;"">Contact Us</h1>
+                                <h4 style="color: rgb(255, 255, 255);  font-family:'Bilbo Swash Caps', cursive;">It's Time to Plan Your</h4>
+                                <h1 style="color: rgb(172, 163, 25);margin-bottom:140px ; font-family: 'Alfa Slab One', 'serif';">Udaipur Tour</h1>
                             </div>
                         </div>
                     </div> 
@@ -342,26 +366,220 @@
         </div>
     </div>
 
-    <!-- CONTACT US -->
+    <!--  udaipur tour -->
     <div class="container pt-5">
         <div class="row">
-            <div class="col">
-                <h5>Working Hours - (10:00 AM – 6:00 PM. Monday – Saturday)</h5><br>
-                <p style="font-family: Bilbo Swash Caps, cursive;"><b>Landline:</b> +91 11 23415601</p>
-                <p style="font-family: Bilbo Swash Caps, cursive;"><b>Mobile:</b> + 91 9910049132 / 9910048582 / 9354205211 / 9810100293  </p>
-                <p style="font-family: Bilbo Swash Caps, cursive;"><b>Whatsapp:</b>  + 91 9910049132</p>
-                <p style="font-family: Bilbo Swash Caps, cursive;"><b>Address:</b> Flat No. 6,2nd Floor, Above Shop No.1Shankar Market,Connaught Place,New Delhi, 110001, India.Nearest Landmark : Haldiram</p>
+            <div class="col-md-6">
+                <h2 style="color: rgb(234, 232, 161);">Udaipur Tour Package</h2>
+                <p style="font-size: 18px; font-family: Bilbo Swash Caps, cursive;">
+                  Planning a trip to Udaipur? Our expertly curated Udaipur holiday packages ensure a hassle-free travel experience, covering the state's rich culture, breathtaking landscapes, thrilling adventures, and spiritual retreats.
+                </p>
+                <p style="font-size: 18px; font-family: Bilbo Swash Caps, cursive;">
+                   Udaipur is a historic city in Rajasthan, India, known as the "City of Lakes" and a major tourist destination, celebrated for its Rajput-era palaces, scenic beauty, and cultural heritage. Key attractions include the majestic City Palace, the romantic Lake Pichola with its iconic Jag Mandir island palace.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <img src="images/udaipur/udaipur_img_01.jpg"  class="img_hover" style="height: auto;width: 100%; border-radius: 5px;">
+            </div>
+        </div>
+    </div>
+    
+    <!-- book now -->
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-md-7" style="font-weight: 900; color: rgb(170, 130, 155); font-size: 4vw;margin-top: 25px;">Udaipur,City in Rajasthan</div>
+            <div class="col-md-5">
+                <div style="background-color: rgb(247, 225, 225);text-align: center; width: 80%; border-radius: 6px; padding: 8px; margin: auto;">
+                   <p style="color: gray;">Starts From</p>
+                    <h2>₹14,000*</h2>
+                    <a href="booking_form.html"><button type="button" value="book" style="height: 50px; width: 70%; border: none;border-radius: 18px; font-weight: 900;background-color: rgb(232, 75, 75); color: white;">Book Now</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-                <h5>Director Sales & Marketing</h5>
-                <p style="font-family: Bilbo Swash Caps, cursive;">Mr. Gaurav Chawla</p>
-                <p style="font-family: Bilbo Swash Caps, cursive;"><b>Email:</b> gaurav.chawla@Raavaya.in</p>
-                <p style="font-family: Bilbo Swash Caps, cursive;"><b>Telephone:</b> +91 11 23415601</p>
-                <p style="font-family: Bilbo Swash Caps, cursive;"><b>Mobile:</b> +91-9910049132, 9810100293</p>
+    <!--  lake of udaipur tour -->
+    <div class="container pt-5">
+        <div class="row">
+            <h2 class="content_sec_hdr">Most Popular Udaipur Lake Tour Packages</h2>
+            <h6 style="color: gray;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Lake Pichola - Much more than just a Lake - Thrilling TravelUdaipur is the "City of Lakes," a nickname earned due to its interconnected system of seven artificial and natural lakes, which provide a cool climate and romantic ambiance. The most famous of these is Lake Pichola, a 14th-century artificial lake surrounded by palaces and havelis, including the Lake Palace Hotel and the Jag Mandir on its islands. Other key lakes include Fateh Sagar Lake, which is home to the Udaipur Solar Observatory, and the massive Jaisamand Lake, also known as Dhebar Lake.</h6>
+            <div class="col-md-2">
+                <a href="#" class="udai_package"><img src="images/udaipur/Udaipur_Lake__01.JPG" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"><p>Lake Pichola</p></a>
+            </div>
+
+            <div class="col-md-2">
+                <a href="#" class="udai_package"><img src="images/udaipur/Udaipur_Lake__02.JPG" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"><p>Dhebar Lake</p></a>
+            </div>
+
+            <div class="col-md-2">
+                <a href="#" class="udai_package"><img src="images/udaipur/Udaipur_Lake__03.JPG" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"><p>Rajsamand Lake</p></a>
+            </div>
+            <div class="col-md-2">
+                <a href="#" class="udai_package"><img src="images//udaipur/Udaipur_Lake__04.JPG" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"><p>Udai Sagar Lake</p></a>
+            </div>
+            <div class="col-md-2">
+                <a href="#" class="udai_package"><img src="images/udaipur/Udaipur_Lake__05.JPG" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"><p>Choti Madar Lake</p></a>
+            </div>
+            <div class="col-md-2">
+                <a href="#" class="udai_package"><img src="images/udaipur/Udaipur_Lake__06.JPG" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"><p>Badi Talab</p></a>
             </div>
         </div>
     </div> 
 
+    <!--Popular Udaipur Honeymoon Holiday Packages -->
+    <div class="container pt-5">
+        <div class="row">
+            <h2 class="content_sec_hdr">Popular Udaipur Honeymoon Holiday Packages</h2>
+            <h6 style="color: gray;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Lake Pichola - Much more than just a Lake - Thrilling TravelUdaipur is the "City of Lakes," a nickname earned due to its interconnected system of seven artificial and natural lakes, which provide a cool climate and romantic ambiance. The most famous of these is Lake Pichola, a 14th-century artificial lake surrounded by palaces and havelis, including the Lake Palace Hotel and the Jag Mandir on its islands. Other key lakes include Fateh Sagar Lake, which is home to the Udaipur Solar Observatory, and the massive Jaisamand Lake, also known as Dhebar Lake.</h6>
+            <div class="col-md-3 card discover_card">
+                <a href="#"><img src="images/udaipur/udaipur_hmoon_01.jpg" class="card-img-top" style="height: 250px; width:100%; border-radius: 5px;"></a>
+                <div class="card-body">
+                    <a href="#" style="text-decoration: none;"><h6 class="card-title" style="color: brown;">Justa Ssatva Resort & Convention Centre</h6></a>
+                </div>
+            </div>
 
+            <div class="col-md-3 card discover_card">
+                <a href="#"><img src="images/udaipur/udaipur_hmoon_02.jpg" class="card-img-top" style="height: 250px; width:100%; border-radius: 5px;"></a>
+                <div class="card-body">
+                    <a href="#" style="text-decoration: none;"><h6 class="card-title" style="color: brown;">Jhadol Safari Resort</h6></a>
+                </div>
+            </div>
+
+            <div class="col-md-3 card discover_card">
+                <a href="#"><img src="images/udaipur/udaipur_hmoon_03.jpg" class="card-img-top" style="height: 250px; width:100%; border-radius: 5px;"></a>
+                <div class="card-body">
+                    <a href="#" style="text-decoration: none;"><h6 class="card-title" style="color: brown;"> Ramee Royal Resort</h6></a>
+                </div>
+            </div>
+
+            <div class="col-md-3 card discover_card">
+                <a href="#"><img src="images/udaipur/udaipur_hmoon_04.jpg" class="card-img-top" style="height: 250px; width:100%; border-radius: 5px;"></a>
+                <div class="card-body">
+                    <a href="#" style="text-decoration: none;"><h6 class="card-title" style="color: brown;">Vasant Kunj Nature Resort</h6></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--  Popular udaipur Family Tour Packages -->
+    <div class="container pt-5">
+        <div class="row">
+            <h2 class="content_sec_hdr">Popular udaipur Family Tour Packages</h2>
+            <h6 style="color: gray;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Lake Pichola - Much more than just a Lake - Thrilling TravelUdaipur is the "City of Lakes," a nickname earned due to its interconnected system of seven artificial and natural lakes, which provide a cool climate and romantic ambiance. The most famous of these is Lake Pichola, a 14th-century artificial lake surrounded by palaces and havelis, including the Lake Palace Hotel and the Jag Mandir on its islands. Other key lakes include Fateh Sagar Lake, which is home to the Udaipur Solar Observatory, and the massive Jaisamand Lake, also known as Dhebar Lake.  </h6>
+            <div class="col-md-2">
+                <a href="#" class="udai_package"><img src="images/udaipur/udaipur_fm_01.jpg" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"><p>City Palace of Udaipur</p></a>
+            </div>
+
+            <div class="col-md-2">
+                <a href="#" class="udai_package"><img src="images/udaipur/udaipur_fm_02.jpg" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"><p>Mansapurna Karni Mata Ropeway</p></a>
+            </div>
+             <div class="col-md-2">
+                <a href="#" class="udai_package"><img src="images/udaipur/udaipur_fm_05.jpg" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"><p> Ambrai Ghat</p></a>
+            </div>
+            <div class="col-md-2">
+                <a href="#" class="udai_package"><img src="images/udaipur/udaipur_fm_03.jpg" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"><p>Nexus Celebration Mall</p></a>
+            </div>
+            <div class="col-md-2">
+                <a href="#" class="udai_package"><img src="images/udaipur/udaipur_fm_04.jpg" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"><p>Bahubali Hills</p></a>
+            </div>
+            <div class="col-md-2">
+                <a href="#" class="udai_package"><img src="images/udaipur/udaipur_fm_06.jpg" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"><p> Jagdish Temple</p></a>
+            </div>
+        </div>
+    </div>
+
+
+    <!--  Must Visit Destinations on Udaipur Tour-1 -->
+    <div class="container pt-5">
+        <div class="row">
+            <h2 class="content_sec_hdr">Must Visit Destinations on Udaipur Tour</h2>
+            <h6 style="color: gray;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Lake Pichola - Much more than just a Lake - Thrilling TravelUdaipur is the "City of Lakes," a nickname earned due to its interconnected system of seven artificial and natural lakes, which provide a cool climate and romantic ambiance. The most famous of these is Lake Pichola, a 14th-century artificial lake surrounded by palaces and havelis, including the Lake Palace Hotel and the Jag Mandir on its islands. Other key lakes include Fateh Sagar Lake, which is home to the Udaipur Solar Observatory, and the massive Jaisamand Lake, also known as Dhebar Lake.  </h6>
+            <div class="col-md-6">
+                <h3 style=" font-family:Bilbo Swash Caps, cursive;">Private Boat</h3>
+                <a href="#" style="text-decoration: none;color: black;"><img src="images\udaipur\udaipur_Visit_01.jpg" style="height: 200px; width: 100%; border-radius: 4px;"></a>
+                <p>
+                    A private boat offers a customizable and intimate setting for trips and gatherings, allowing you to set your own pace and agenda.
+                    You are in full control of the vessel and the itinerary, able to go anywhere your boat can travel and focus on your preferred activities.
+                    It provides a great venue for spending quality time with friends and family, creating lasting memories in a unique environment.
+                    Owning or chartering a private vessel ensures you and your guests have a private experience, free from crowds of larger tour boats.
+                </p>
+            </div>
+
+            <div class="col-md-6">
+                <h3 style=" font-family:Bilbo Swash Caps, cursive;">City Walk</h3>
+                <a href="#" style="text-decoration: none;color: black;"><img src="images\udaipur\udaipur_Visit_02.jpg" style="height: 200px; width: 100%; border-radius: 4px;"></a>
+                <p>
+                    The walk highlights havelis (mansions), ancient shrines, and the magnificent City Palace complex, which includes a museum.
+                    You'll encounter Lake Pichola and its famous ghats, such as Gangaur Ghat, offering beautiful views and a serene atmosphere. 
+                    The tours delve into Udaipur's artistic heritage, sometimes including demonstrations of miniature painting and providing insights into local culture and artistic traditions. 
+                    Expect to see vibrant bazaars and experience authentic local, including the chance to try Indian tea.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!--  Must Visit Destinations on Udaipur Tour-2 -->
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h3 style=" font-family:Bilbo Swash Caps, cursive;">Havelis</h3>
+                <a href="#" style="text-decoration: none;color: black;"><img src="images/udaipur/udaipur_Visit_03.jpg" style="height: 200px; width: 100%; border-radius: 4px;"></a>
+                <p>
+                    Havelis in Udaipur were once residences of prominent royal court members or wealthy merchants, built between the 18th and 19th centuries. 
+                    They are known for their intricate designs, rich decorative elements, and royal artwork, reflecting the grandeur of their former residents. 
+                    Many havelis in Udaipur, such as Amet Haveli and Kankarwa Haveli, have been restored and transformed into heritage hotels. These hotels offer guests a chance to stay in historically significant buildings and enjoy lake views, particularly of Lake Pichola. 
+                    <!-- Some havelis remain private residences, with their original families continuing to reside there -->
+                </p>
+            </div>
+
+            <div class="col-md-6">
+                <h3 style=" font-family:Bilbo Swash Caps, cursive;">High Tea</h3>
+                <a href="#" style="text-decoration: none;color: black;"><img src="images/udaipur/udaipur_Visit_04.jpg" style="height: 200px; width: 100%; border-radius: 4px;"></a>
+                <p>
+                    While not traditionally famous for tea, Udaipur is known for its flavorful, spice-infused local chai, with the Khetlaapa Tea Stall being a notable example that serves authentic, aromatic chai to locals and tourists. Tourists can experience this aspect of local culture by trying street food, including chai, and exploring the vibrant night markets.  
+                    Visit local stalls like the Khetlaapa Tea Stall to try authentic Indian chai made with a unique blend of spices and herbs. 
+                    Sample delicious Rajasthani street food, including chai, as you explore the city's lively night markets. 
+                    Enjoy the rich aroma and flavor of the local tea, which is a unique aspect of experiencing Udaipur's culture. 
+                    Expect to see vibrant bazaars and experience authentic local, including the chance to try Indian tea.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- How to Reach Udaipur -->
+     <div class="container">
+        <div class="row">
+            <h2 class="content_sec_hdr">How to Reach Udaipur ?</h2>
+            <div class="col-md-2">
+                <img src="images/flight_tr.webp"  height="auto" width="100%">
+            </div>
+            <div class="col-md-2">
+                <span><b style="font-size: 25px;">By Air</b></span><br>
+                <span>This is the main airport, located about 22 km east of the city center.</span>
+            </div>
+
+            <div class="col-md-2">
+                <img src="images/train.webp"  height="auto" width="100%">
+            </div>
+            <div class="col-md-2">
+                <span><b style="font-size: 25px;">By Train</b></span><br>
+                <span>Udaipur has two railway stations: Udaipur City and Rana Pratap Nagar.</span>
+            </div>
+
+            <div class="col-md-2">
+                <img src="images/bus.webp"  height="auto" width="100%">
+            </div>
+            <div class="col-md-2">
+                <span><b style="font-size: 25px;">By Bus</b></span><br>
+                <span>Private cabs and rental services are also available for travel to Udaipur.</span>
+            </div>
+        </div>
+     </div>
+
+
+
+    
 
 
     <!-- FOOTER -->
@@ -579,18 +797,18 @@
                 </button>
             </div>
             <!-- about -->
-            <div class="col col-md-3">
+            <div class="col col-md-2">
                 <button type="button" class="btn">
                     <a href="about.html" class="nav-link navclor">About Us</a>
                 </button>
             </div>
             <!-- Contact -->
-            <div class="col col-md-4">
+            <div class="col col-md-2">
                 <button type="button" class="btn">
                     <a href="contact.html" class="nav-link navclor">Contact Us</a>
                 </button>
             </div>
-            <!-- get in touch -->
+             <!-- get in touch -->
             <div class="col col-md-4">
                 <h4 class="pt-4 pb-4" style="color: rgb(145, 58, 11);">Connect with Us</h4>
                 <a href="#" class="ftr_lst_cl_link" id="ftr_facebook"><i class="fa-brands fa-facebook" style="color: blue;"></i></a>
