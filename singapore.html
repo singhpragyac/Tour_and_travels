@@ -1,0 +1,1116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour and Travels</title>
+    <link rel="icon" type="icon/png" href="images\letter-r_13390405.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Nanum+Gothic&family=Playwrite+HU:wght@100..400&display=swap" rel="stylesheet">
+    <style>
+        .btn {
+            border: none;
+        }
+        .navclor {
+            font-weight:600;
+        }
+        .navclor:hover {
+            color: rgb(225, 68, 20);
+        }
+
+        .dritem:hover {
+            color: rgb(22, 125, 185);
+            background-color: rgb(232, 252, 255);
+        }
+
+        .content_sec_hdr {
+            color:  rgb(0, 0, 0);
+            padding: 30px 6px;
+            font-family: 'Alfa Slab One', 'serif';
+        }
+        /* .img_hover {
+	        transition: 2s linear;
+        } */
+
+        .img_hover:hover {
+            animation-name: pulse;
+            animation-duration: 3s;
+            box-shadow: 0 4px 8px 0 rgba(234, 21, 6, 0.2), 0 6px 20px 0 rgba(6, 181, 234, 0.2);
+        }
+        @-webkit-keyframes pulse {
+        0% {
+        transform: scale3d(1, 1, 1);
+        }
+        50% {
+        transform: scale3d(1.05, 1.05, 1.05);
+        }
+        100% {
+        transform: scale3d(1, 1, 1);
+        }
+  
+        }
+        .tr_place {
+            text-decoration: none;
+            color: rgb(81, 15, 3);
+            text-align: center;
+        }
+        .tr_place h5 {
+            font-family: Bilbo Swash Caps;
+        }
+       
+        .achieved_imgs {
+            width: 160px;
+            height: 140px;
+            box-shadow: 0 4px 8px 0 rgba(234, 6, 6, 0.2), 0 6px 20px 0 rgba(234, 6, 6, 0.19);
+        }
+
+        .ftr_link {
+            text-decoration: none;
+            color: black;
+            line-height: 1.8;
+        }
+
+        .ftr_link:hover {
+            color: brown;
+            text-decoration: underline;
+            font-weight: 500;
+        }
+        .ftr_lst_cl_link {
+            text-decoration: none;
+            color: white;
+            font-size: 25px;
+        }
+        .ftr_lst_cl_link:hover {
+            color: rgb(165, 182, 237);
+        }
+
+        .main {
+            /* background-color: purple; */
+            white-space: nowrap;
+            overflow-x: auto;
+            overflow-y: hidden;
+        }
+
+        .child {
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+            margin: 30px;
+            display: inline-block;
+        }
+        .discover_card:hover {
+            box-shadow: 0 4px 8px 0 rgba(234, 6, 6, 0.2), 0 6px 20px 0 rgba(6, 181, 234, 0.2);
+        }
+        .udai_package {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER SECTION -->
+    <div class="container-fluid bg-primary-subtle pt-2 pb-2 text-dark bg-opacity-75">
+        <div class="row">
+            <div class="col">
+                <nav class="navbar navbar-expand-sm navbar-light">
+                   <div class="col-md-2">
+                        <a href="#" class="navbar-brand ps-4" style="color: brown; font-weight: 700; font-family: cursive">Raavaya</a>
+                   </div>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#headercanva">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                   <div class="collapse navbar-collapse" id="navbar">
+                        <!-- home -->
+                       <div class="col-md-1">
+                            <button type="button" class="btn">
+                                <a href="index.html" class="nav-link navclor active" style=" color: rgb(225, 68, 20);">Home</a>
+                            </button>  
+                       </div>
+                       <!-- tour in ind -->
+                        <div class="col-md-2 ps-3">
+                            <div class="dropdown">
+                                <button type="button" class="btn" data-bs-toggle="dropdown">
+                                   <a href="#" class="nav-link dropdown-toggle navclor" role="button">Tours in India</a>
+                                </button>
+                                <div class="dropdown-menu p-3 dropstart" style="min-width: 880px;">
+                                   <div class="row">
+                                        <div class="col-md-2">
+                                            <a href="agra.html" class="dropdown-item dritem" style="color: rgb(185, 12, 12);">Agra</a>
+                                            <a href="#" class="dropdown-item dritem">Amritsar</a>
+                                            <a href="#" class="dropdown-item dritem">Andaman</a>
+                                            <a href="#" class="dropdown-item dritem">Banaras</a>
+                                            <a href="#" class="dropdown-item dritem">Bangalore</a>
+                                            <a href="#" class="dropdown-item dritem">Bodh Gaya</a>
+                                            <a href="#" class="dropdown-item dritem">Badrinath</a>
+                                            <a href="#" class="dropdown-item dritem">Bhimtal</a>
+                                            <a href="#" class="dropdown-item dritem">Chennai</a>
+                                            <a href="#" class="dropdown-item dritem">Chandigarh</a>
+                                            <a href="#" class="dropdown-item dritem">Chitrakoot</a>
+                                            <a href="#" class="dropdown-item  dritem">Chilika Lake</a>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <a href="udaipur.html" class="dropdown-item dritem" style="color: rgb(185, 12, 12);">Udaipur </a>
+                                            <a href="#" class="dropdown-item dritem">Daman and Diu</a>
+                                            <a href="#" class="dropdown-item dritem">Delhi</a>
+                                            <a href="#" class="dropdown-item dritem">Darjeeling</a>
+                                            <a href="#" class="dropdown-item dritem">Fatehpur Sikri</a>
+                                            <a href="#" class="dropdown-item dritem">Golden tempal</a>
+                                            <a href="#" class="dropdown-item dritem">Goa</a>
+                                            <a href="#" class="dropdown-item dritem">Gulmarg</a>
+                                            <a href="#" class="dropdown-item dritem">Gwalior</a>
+                                            <a href="#" class="dropdown-item dritem">Ganga Sagar</a>
+                                            <a href="#" class="dropdown-item dritem">Ghats of Varanasi</a>
+                                            <a href="#" class="dropdown-item dritem">Haridwar</a>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <a href="KERALA.html" class="dropdown-item dritem" style="color: rgb(185, 12, 12);">Kerala</a>
+                                            <a href="KARNATAKA.html" class="dropdown-item dritem"  style="color: rgb(185, 12, 12);">Karnataka</a>
+                                            <a href="#" class="dropdown-item dritem">Hyderabad</a>
+                                            <a href="#" class="dropdown-item dritem">Himachal Pradesh</a>
+                                            <a href="#" class="dropdown-item dritem">Hazaribagh</a>
+                                            <a href="#" class="dropdown-item dritem">Indore</a>
+                                            <a href="#" class="dropdown-item dritem">Jaipur</a>
+                                            <a href="#" class="dropdown-item dritem">Jaisalmer</a>
+                                            <a href="#" class="dropdown-item dritem">Junagarh</a>
+                                            <a href="#" class="dropdown-item dritem">Joshimata</a>
+                                            <a href="#" class="dropdown-item dritem">Kalimpong</a>
+                                            <a href="#" class="dropdown-item dritem">Shimla</a>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <a href="leh.html" class="dropdown-item dritem" style="color: rgb(185, 12, 12);">Leh</a>
+                                            <a href="MEGHALAYA.html" class="dropdown-item dritem" style="color: rgb(185, 12, 12);">Meghalaya</a>
+                                            <a href="#" class="dropdown-item dritem">Lucknow</a>
+                                            <a href="#" class="dropdown-item dritem">Lonavala</a>
+                                            <a href="#" class="dropdown-item dritem">Lansdowne</a>
+                                            <a href="#" class="dropdown-item dritem">Lakshadweep</a>
+                                            <a href="#" class="dropdown-item dritem">Manali</a>
+                                            <a href="#" class="dropdown-item dritem">Mahabalipuram</a>
+                                            <a href="#" class="dropdown-item dritem">Nainital</a>
+                                            <a href="#" class="dropdown-item dritem">Nashik</a>
+                                            <a href="#" class="dropdown-item dritem">Ujjain</a>
+                                            <a href="#" class="dropdown-item dritem">Hampi</a>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <a href="golden_tem.html" class="dropdown-item dritem" style="color: rgb(185, 12, 12);">Amritsar</a>
+                                            <a href="mumbai.html" class="dropdown-item dritem" style="color: rgb(185, 12, 12);">Mumbai</a>
+                                            <a href="#" class="dropdown-item dritem">Ooty</a>
+                                            <a href="#" class="dropdown-item dritem">Pahalgam</a>
+                                            <a href="#" class="dropdown-item dritem">Puri</a>
+                                            <a href="#" class="dropdown-item dritem">Pune</a>
+                                            <a href="#" class="dropdown-item dritem">Qutub Minar</a>
+                                            <a href="#" class="dropdown-item dritem">Rishikesh</a>
+                                            <a href="#" class="dropdown-item dritem">Rameswaram</a>
+                                            <a href="#" class="dropdown-item dritem">Ranchi</a>
+                                            <a href="#" class="dropdown-item dritem">Ranikhet</a>
+                                            <a href="#" class="dropdown-item dritem">Rohtang Pass</a>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <a href="#chardham.html" class="dropdown-item dritem dritem" style="color: rgb(185, 12, 12);">Chardham</a>
+                                            <a href="#" class="dropdown-item dritem dritem">Srinagar</a>
+                                            <a href="#" class="dropdown-item dritem dritem">Shimla</a>
+                                            <a href="#" class="dropdown-item dritem dritem">Sikkim</a>
+                                            <a href="#" class="dropdown-item dritem dritem">Sanchi</a>
+                                            <a href="#" class="dropdown-item dritem dritem">Sunderbans</a>
+                                            <a href="#" class="dropdown-item dritem dritem">Taj Mahal</a>
+                                            <a href="#" class="dropdown-item dritem dritem">Kerala</a>
+                                            <a href="#" class="dropdown-item dritem dritem">Ujjain</a>
+                                            <a href="#" class="dropdown-item dritem dritem">Yamunotri</a>
+                                            <a href="#" class="dropdown-item dritem dritem">Yanam</a>
+                                            <a href="#" class="dropdown-item dritem">Rajkot</a>
+                                        </div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- International tour -->
+                        <div class="col-md-2 ps-3">
+                            <div class="dropdown">
+                            <button type="button" class="btn" data-bs-toggle="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle navclor" role="button">International Tours</a>
+                            </button>
+                                <div class="dropdown-menu dropstart" style="min-width: 500px;">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <a href="dubai.html" class="dropdown-item dritem" style="color: rgb(185, 12, 12);">Dubai Tour Package</a>
+                                            <a href="singapore.html" class="dropdown-item dritem" style="color: rgb(185, 12, 12);">Singapore Tour Package</a>
+                                            <a href="#" class="dropdown-item dritem">Australia Tour Package</a>
+                                            <a href="#" class="dropdown-item dritem">Balkans Tour Package</a>
+                                            <a href="#" class="dropdown-item dritem">Greece Tour Package</a>
+                                            <a href="#" class="dropdown-item dritem">Romania Tour Package</a>
+                                            <a href="#" class="dropdown-item dritem">Bhutan Tour Package</a>
+                                            <a href="#" class="dropdown-item dritem">Europe Tour Package</a>
+                                            <a href="#" class="dropdown-item dritem">Hong Kong Tour Package</a>
+                                            <a href="#" class="dropdown-item dritem">Indonesia Tour Package</a>
+                                            <a href="#" class="dropdown-item dritem">Italy Tour Package</a>
+                                            <a href="#" class="dropdown-item dritem">JapanTour Package</a>
+                                        </div>
+                                        <div class="col-md-6">
+                                           <a href="vietnam.html" class="dropdown-item dritem" style="color: rgb(185, 12, 12);">Vietnam Tour Package</a>
+                                            <a href="thailand.html" class="dropdown-item dritem" style="color: rgb(185, 12, 12);">thailand Tour Package</a>
+                                            <a href="#" class="dropdown-item dritem">Switzerland Tour Package</a>
+                                            <a href="#" class="dropdown-item dritem">Vietnam Tour Package</a>
+                                            <a href="#" class="dropdown-item dritem">Thailand Tour Packages</a>
+                                            <a href="#" class="dropdown-item dritem">Malaysis Tour Package</a>
+                                            <a href="#" class="dropdown-item dritem">Maldives Tour Package</a>
+                                            <a href="#" class="dropdown-item dritem">New Zealand Tour Package</a>
+                                            <a href="#" class="dropdown-item dritem">Nepal Tour Package</a>
+                                            <a href="#" class="dropdown-item dritem">Russia Tour Package</a>
+                                            <a href="#" class="dropdown-item dritem">Sri Lanka Tour Package</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Destinations -->
+                        <div class="col-md-2 ps-5">
+                            <div class="dropdown">
+                                <button type="button" class="btn" data-bs-toggle="dropdown">
+                                    <a href="destination.html" class="nav-link dropdown-toggle navclor" role="button">Destinations</a>
+                                </button>
+                                <div class="dropdown-menu dropstart" style="min-width: 450px;">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <a href="#" class="dropdown-item dritem">Agra</a>
+                                            <a href="#" class="dropdown-item dritem">Amritsar</a>
+                                            <a href="#" class="dropdown-item dritem">Andaman</a>
+                                            <a href="#" class="dropdown-item dritem">Banaras</a>
+                                            <a href="#" class="dropdown-item dritem">Bangalore</a>
+                                            <a href="#" class="dropdown-item dritem">Bodh Gaya</a>
+                                            <a href="#" class="dropdown-item dritem">Badrinath</a>
+                                            <a href="#" class="dropdown-item dritem">Bhimtal</a>
+                                            <a href="#" class="dropdown-item dritem">Chennai</a>
+                                            <a href="#" class="dropdown-item dritem">Chandigarh</a>
+                                            <a href="#" class="dropdown-item dritem">Chitrakoot</a>
+                                            <a href="#" class="dropdown-item dritem">Chilika Lake</a>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <a href="#" class="dropdown-item dritem dritem">Nalanda</a>
+                                            <a href="#" class="dropdown-item dritem dritem">Ooty</a>
+                                            <a href="#" class="dropdown-item dritem dritem">Pahalgam</a>
+                                            <a href="#" class="dropdown-item dritem dritem">Puri</a>
+                                            <a href="#" class="dropdown-item dritem dritem">Pune</a>
+                                            <a href="#" class="dropdown-item dritem dritem">Qutub Minar</a>
+                                            <a href="#" class="dropdown-item dritem dritem">Rishikesh</a>
+                                            <a href="#" class="dropdown-item dritem dritem">Rameswaram</a>
+                                            <a href="#" class="dropdown-item dritem dritem">Ranchi</a>
+                                            <a href="#" class="dropdown-item dritem dritem">Ranikhet</a>
+                                            <a href="#" class="dropdown-item dritem dritem">Rohtang Pass</a>
+                                            <a href="#" class="dropdown-item dritem dritem">Rajkot</a>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <a href="#" class="dropdown-item dritem">Leh</a>
+                                            <a href="#" class="dropdown-item dritem">Lucknow</a>
+                                            <a href="#" class="dropdown-item dritem">Lonavala</a>
+                                            <a href="#" class="dropdown-item dritem">Lansdowne</a>
+                                            <a href="#" class="dropdown-item dritem">Lakshadweep</a>
+                                            <a href="#" class="dropdown-item dritem">Manali</a>
+                                            <a href="#" class="dropdown-item dritem">Mahabalipuram</a>
+                                            <a href="#" class="dropdown-item dritem">Mumbai</a>
+                                            <a href="#" class="dropdown-item dritem">Nainital</a>
+                                            <a href="#" class="dropdown-item dritem">Nashik</a>
+                                            <a href="#" class="dropdown-item dritem">Ujjain</a>
+                                            <a href="#" class="dropdown-item dritem">Nubra Valley</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       
+                        <!-- our support -->
+                        <div class="col-md-1 ps-4">
+                            <button type="button" class="btn">
+                               <a href="support.html" class="nav-link navclor">Support</a>
+                            </button>
+                        </div>
+                        <!-- about -->
+                        <div class="col-md-2 ps-5">
+                            <button type="button" class="btn">
+                               <a href="about.html" class="nav-link navclor">About Us</a>
+                            </button>
+                        </div>
+                        <!-- Contact -->
+                        <div class="col-md-2 ps-0">
+                            <button type="button" class="btn">
+                               <a href="contact.html" class="nav-link navclor">Contact Us</a>
+                            </button>
+                        </div>
+                   </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- CAROUSEL -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div id="topcarousel" class="carousel slider" data-bs-ride="carousel">
+                    <!-- carousel images -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="3000">
+                            <img src="images/singapore/singapore_banner.jpg" class="d-block w-100 img_hover" style="height: 300px; width: 100%;">
+                            <div class="carousel-caption">
+                                <h4 style="color: rgb(255, 255, 255);font-family:'Bilbo Swash Caps', cursive;">It's Time to Plan Your</h4>
+                                <h1 style="color: rgb(4, 123, 188);margin-bottom: 130px; font-family: 'Alfa Slab One', 'serif';">Singapore Tour</h1>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  Singapore tour -->
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 style="color: rgb(64, 151, 188)">About Singapore</h2>
+                <p style="font-size: 18px; font-family: Bilbo Swash Caps, cursive;">
+                  Singapore,officially the Republic of Singapore, is an island country and city-state in Southeast Asia. The country's territory comprises one main island, 63 satellite islands and islets, and one outlying islet. It is about one degree of latitude (137 kilometres or 85 miles) north of the equator, off the southern tip of the Malay Peninsula, bordering the Strait of Malacca to the west, the Singapore Strait to the south along with the Riau Islands in Indonesia, the South China Sea to the east, and the Straits of Johor along with the State of Johor in Malaysia to the north.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <img src="images/singapore/singapore_01.jpg"  class="img_hover" style="height: auto;width: 100%; border-radius: 5px;">
+            </div>
+        </div>
+    </div>
+    
+    <!-- book now -->
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-md-7" style="font-weight: 900; color: rgb(86, 129, 164); font-size: 4vw;margin-top: 25px;">Singapore</div>
+            <div class="col-md-5">
+                <div style="background-color: rgb(247, 225, 225);text-align: center; width: 80%; border-radius: 6px; padding: 8px; margin: auto;">
+                   <p style="color: gray;">Starts From</p>
+                    <h2>₹14,000*</h2>
+                    <a href="booking_form.html"><button type="button" value="book" style="height: 50px; width: 70%; border: none;border-radius: 18px; font-weight: 900;background-color: rgb(232, 75, 75); color: white;">Book Now</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--  Singapore Popular Tour Packages-1 -->
+    <div class="container pt-5">
+        <div class="row">
+            <h2 class="content_sec_hdr">Most Popular Tour Packages of Singapore</h2>
+             <div class="col-md-4">
+                <div class="card discover_card">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#singapore_fm_01"><img src="images/singapore/singapore_fm_01.jpg" class="card-img-top" style="height: 250px; width:100%;"></a>
+                    <div class="card-body">
+                        <a href="#" style="text-decoration: none;" data-bs-toggle="modal" data-bs-target="#singapore_fm_01">
+                            <h4 class="card-title" style="font-size: 17px; color: rgb(101, 135, 151);">Singapore Highlights</h4>
+                            <p style="color: rgb(78, 58, 58);font-size: 15px;">3 NIGHTS</p>
+                            <p style="color: rgb(78, 58, 58);font-size: 14px;">Plan your Singapore trip including must see sightseeing with ample time for Shopping and self discovery. Package includes Stay, Breakfast, Airport transfers and Sightseeing</p>
+                            <h6 style="color: rgb(235, 151, 151);">From Rs. 32,550</h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card discover_card">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#singapore_fm_02"><img src="images/singapore/singapore_fm_02.jpg" class="card-img-top" style="height: 250px; width:100%;"></a>
+                    <div class="card-body">
+                        <a href="#" style="text-decoration: none;" data-bs-toggle="modal" data-bs-target="#singapore_fm_02">
+                            <h4 class="card-title" style="font-size: 17px;color:  rgb(101, 135, 151);">Singapore & Langkawi</h4>
+                            <p style="color: rgb(78, 58, 58);font-size: 15px;">6 NIGHTS</p>
+                            <p style="color: rgb(78, 58, 58);font-size: 15px;">
+                                Discover Singapore's delightful urban life with the beautiful hills and beaches of Langkawi. Package includes Stay, Breakfast, transfers and Sightseeing
+                            </p>
+                            <h6 style="color: rgb(235, 151, 151);">From Rs. 52,550</h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card discover_card">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#singapore_fm_03"><img src="images/singapore/singapore_fm_03.jpg" class="card-img-top" style="height: 250px; width:100%;"></a>
+                    <div class="card-body">
+                        <a href="#" style="text-decoration: none;" data-bs-toggle="modal" data-bs-target="#singapore_fm_03">
+                            <h4 class="card-title" style="font-size: 17px;color:  rgb(101, 135, 151);">Singapore & Bali</h4>
+                            <p style="color: rgb(78, 58, 58);font-size: 15px;">7 NIGHTS</p>
+                            <p style="color: rgb(78, 58, 58);font-size: 15px;">
+                               Combination of Singapore's hyper urban life with the cultural experience of Bali. Package includes Stay, Breakfast, transfers and Sightseeing
+                            </p>
+                            <h6 style="color: rgb(235, 151, 151);">From Rs. 42,550</h6>
+                        </a>
+                    </div>
+                </div>
+           </div>
+        </div>
+    </div>
+
+    
+
+
+
+    <!-- Singapore Popular Tour Packages-2 -->
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card discover_card">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#singapore_fm_04"><img src="images/singapore/singapore_fm_04.jpg" class="card-img-top" style="height: 250px; width:100%;"></a>
+                    <div class="card-body">
+                        <a href="#" style="text-decoration: none;" data-bs-toggle="modal" data-bs-target="#singapore_fm_04">
+                            <h4 class="card-title" style="font-size: 17px;color:  rgb(101, 135, 151);">Singapore Family Tour</h4>
+                            <p style="color: rgb(78, 58, 58);font-size: 15px;">5 NIGHTS</p>
+                            <p style="color: rgb(78, 58, 58);font-size: 15px;">
+                              Singapore trip that covers all major theme parks and still gives ample time for Shopping and self discovery. Includes Stay, Breakfast, transfers & Sightseeing
+                            </p>
+                            <h6 style="color: rgb(235, 151, 151);">From Rs. 32,050</h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card discover_card">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#singapore_fm_05"><img src="images/singapore/singapore_fm_05.jpg" class="card-img-top" style="height: 250px; width:100%;"></a>
+                    <div class="card-body">
+                        <a href="#" style="text-decoration: none;" data-bs-toggle="modal" data-bs-target="#singapore_fm_05">
+                            <h4 class="card-title" style="font-size: 17px;color:  rgb(101, 135, 151);">Singapore with Cruise</h4>
+                            <p style="color: rgb(78, 58, 58);font-size: 15px;">6 NIGHTS</p>
+                            <p style="color: rgb(78, 58, 58);font-size: 15px;">
+                               Discover Singapore's main attractions, riverside nightlife & 2 Nights full board cruise stay. Package includes Stay, Breakfast, transfers and Sightseeing
+                            </p>
+                            <h6 style="color: rgb(235, 151, 151);">From Rs. 53,550</h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card discover_card">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#singapore_fm_06"><img src="images/singapore/singapore_fm_06.jpg" class="card-img-top" style="height: 250px; width:100%;"></a>
+                    <div class="card-body">
+                        <a href="#" style="text-decoration: none;" data-bs-toggle="modal" data-bs-target="#singapore_fm_06">
+                       <h4 class="card-title" style="font-size: 17px;color:  rgb(101, 135, 151);">Singapore Free & Easy</h4>
+                            <p style="color: rgb(78, 58, 58);font-size: 15px;">3 NIGHTS</p>
+                            <p style="color: rgb(78, 58, 58);font-size: 15px;">
+                              Explore Singapore at your own pace. Package includes stay with breakfast and Airport transfers. Plan your own Sightseeing with our guidance
+                            </p>
+                            <h6 style="color: rgb(235, 151, 151);">From Rs. 20,000</h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--  Foof & Drink -->
+    <div class="container pt-5">
+        <div class="row">
+            <h2 class="content_sec_hdr">Foof & Drink</h2>
+            <div class="col-md-4">
+                <div class="card discover_card">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#dubai_food_01"><img src="images/dubai/dubai_food_01.jpg" class="card-img-top" style="height: 250px; width:100%;"></a>
+                    <div class="card-body">
+                        <a href="#" style="text-decoration: none;" data-bs-toggle="modal" data-bs-target="#dubai_food_01">
+                            <h4 class="card-title" style="font-size: 17px; color:  rgb(101, 135, 151);">Seafire Steakhouse</h4>
+                            <h6 style="color: rgb(235, 151, 151);">Steakhouse, Vegetarian friendly</h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card discover_card">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#dubai_food_02"><img src="images/dubai/dubai_food_02.jpg" class="card-img-top" style="height: 250px; width:100%;"></a>
+                    <div class="card-body">
+                        <a href="#" style="text-decoration: none;" data-bs-toggle="modal" data-bs-target="#dubai_food_02">
+                            <h4 class="card-title" style="font-size: 17px; color:  rgb(101, 135, 151);">The Edge</h4>
+                            <h6 style="color: rgb(235, 151, 151);">Italian, Pizza, Mediterranean</h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card discover_card">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#dubai_food_03"><img src="images/dubai/dubai_food_03.jpg" class="card-img-top" style="height: 250px; width:100%;"></a>
+                    <div class="card-body">
+                        <a href="#" style="text-decoration: none;" data-bs-toggle="modal" data-bs-target="#dubai_food_03">
+                            <h4 class="card-title" style="font-size: 17px; color:  rgb(101, 135, 151);">Armani/Ristorante</h4>
+                            <h6 style="color: rgb(235, 151, 151);">Italian, International, Mediterranean</h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  Browse collections -->
+    <div class="container pt-5">
+        <div class="row">
+            <h2 class="content_sec_hdr">Browse collections</h2>
+            <h6 style="color: gray;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Get ideas on what to do, see, and eat</h6>
+            <div class="col-md-3">
+                <div class="card discover_card">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#dubai_br_01"><img src="images/dubai/dubai_br_01.jpg" class="card-img-top" style="height: 250px; width:100%;"></a>
+                    <div class="card-body">
+                        <a href="#" style="text-decoration: none;" data-bs-toggle="modal" data-bs-target="#dubai_br_01">
+                            <h4 class="card-title" style="font-size: 17px; color:  rgb(101, 135, 151);">Autumn in Dubai</h4>
+                            <h6 style="color: rgb(235, 151, 151);">See what makes the city so magical at this time of year</h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card discover_card">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#dubai_br_02"><img src="images/dubai/dubai_br_02.jpg" class="card-img-top" style="height: 250px; width:100%;"></a>
+                    <div class="card-body">
+                        <a href="#" style="text-decoration: none;" data-bs-toggle="modal" data-bs-target="#dubai_br_02">
+                            <h4 class="card-title" style="font-size: 17px; color:  rgb(101, 135, 151);">City Walk</h4>
+                            <h6 style="color: rgb(235, 151, 151);">Action-packed outdoor experiences</h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card discover_card">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#dubai_br_03"><img src="images/dubai/dubai_br_03.jpg" class="card-img-top" style="height: 250px; width:100%;"></a>
+                    <div class="card-body">
+                        <a href="#" style="text-decoration: none;" data-bs-toggle="modal" data-bs-target="#dubai_br_03">
+                            <h4 class="card-title" style="font-size: 17px; color:  rgb(101, 135, 151);">City Walk</h4>
+                            <h6 style="color: rgb(235, 151, 151);">Cocktail lounges and beach clubs worth a stop</h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card discover_card">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#dubai_br_04"><img src="images/dubai/dubai_br_04.jpg" class="card-img-top" style="height: 250px; width:100%;"></a>
+                    <div class="card-body">
+                        <a href="#" style="text-decoration: none;" data-bs-toggle="modal" data-bs-target="#dubai_br_04">
+                            <h4 class="card-title" style="font-size: 17px; color:  rgb(101, 135, 151);">Hit the mall, market</h4>
+                            <h6 style="color: rgb(235, 151, 151);">Standout spots for one-of-a-kind finds</h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- FOOTER -->
+    <div class="container-fluid bg-primary-subtle pt-5 mt-5">
+        <div class="row">
+            <div class="col-md-3 ps-5">
+                <h5>Raavaya Tours Services</h5>
+                <a href="#" class="ftr_link">Holiday Packages in India</a><br>
+                <a href="#" class="ftr_link">International Tour Packages</a><br>
+                <a href="#" class="ftr_link">Transport</a><br>
+                <a href="#" class="ftr_link">Luxury Tours in India</a><br>
+                <a href="#" class="ftr_link">Honeymoon Packages India</a><br>
+                <a href="#" class="ftr_link">Golden Triangle Tour Packages</a><br>
+                <a href="#" class="ftr_link">Kashmir Tour Packages</a><br>
+                <a href="#" class="ftr_link">Bhutan Tour Packages</a><br>
+                <a href="#" class="ftr_link">Andaman Tour Packages</a><br>
+                <a href="#" class="ftr_link">Gujarat Tour Packages</a>
+            </div>
+
+            <div class="col-md-2">
+                <h5>Customer Support</h5>
+                <a href="#" class="ftr_link">Contact Us</a><br>
+                <a href="#" class="ftr_link">Raavaya Tours Awards</a><br>
+                <a href="#" class="ftr_link">Help & FAQs</a><br>
+                <a href="#" class="ftr_link">Reservation Policy</a><br>
+                <a href="#" class="ftr_link">Terms & Condition</a><br>
+                <a href="#" class="ftr_link">Payment Options</a><br>
+                <a href="#" class="ftr_link">Lowest Rates Challenge</a><br>
+                <a href="#" class="ftr_link">Testimonials</a><br>
+                <a href="#" class="ftr_link">Career</a>
+            </div>
+
+            <div class="col-md-3">
+                <h5>Need Help ?</h5>
+                <i class="fa-regular fa-clock"></i><span class="ftr_link">Working Hours:
+               (10:00 AM - 6:00 PM. Monday - Saturday)</span><br>
+
+                <i class="fa-solid fa-tty"></i><span class="ftr_link">Telephone: +91 11 23415601</span><br><br>
+                
+                <i class="fa-solid fa-phone"></i><span class="ftr_link">Contact Numbers:
+                + 91 9910049132 / 9910048582 / 9354205211 / 9810100293</span><br><br>
+                <i class="fa-solid fa-location-dot"></i><span class="ftr_link">Address:
+                Flat No. 6, Shankar Market, 2nd Floor, Above Shop No.1 Shankar Market, Outer Circle, Opposite M Block, Connaught Place,
+                Delhi, 110001, India.</span>
+            </div>
+
+            <div class="col-md-4 ps-5">
+                <h2 style="color: brown; font-family: cursive">Raavaya</h2>
+                <a href="https://www.facebook.com/" class="ftr_lst_cl_link" id="ftr_facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://x.com/" class="ftr_lst_cl_link" id="ftr_twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/" class="ftr_lst_cl_link" id="ftr_instagram"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://www.pinterest.com/" class="ftr_lst_cl_link" id="ftr_pinterest"><i class="fa-brands fa-pinterest"></i></a>
+                <a href="https://in.linkedin.com/" class="ftr_lst_cl_link" id="ftr_linkedin"><i class="fa-brands fa-square-linkedin"></i></a><br>
+                <img src="images\ftr_ggle.png" height="50px"><br>
+                <a href="https://www.google.com/"><button type="button" style="border:none; border-radius: 3px;margin-top: 5px;">Read More Reviews</button></a><br>
+                <img src="images\ftr_tripadv.png" height="50px"><br>
+                <a href="https://www.tripadviso.com/"><button type="button" style="border:none; border-radius: 3px;">Read More Reviews</button></a>
+                <a href="https://www.whatsapp.com/?lang=en"><img src="images/whatsapp_ft.png" style="height: 50px; width: 50px; position: fixed;bottom: 180px;right: 0;"></a>
+            </div>
+        </div>
+    </div> 
+
+    <!-- modal for enquiry -->
+    <div class="container-fluid bg-primary-subtle pt-2">
+        <!-- toggle btn -->
+        <div class="row justify-content-center">
+            <button type="button" class="btn btn-danger w-auto" data-bs-toggle="modal" data-bs-target="#hhh" style="position: fixed;bottom: 270px;right: 2px;">
+            Send Enquiry
+            </button>
+        </div>
+    </div>
+
+    <div class="modal fade" id="hhh">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Send Query</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="fname" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="fname">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="lname" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="lname">
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="dob" class="form-label">Birth Date</label>
+                            <input type="date" class="form-control" id="dob">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="orname" class="form-label">Organization Name</label>
+                            <input type="text" class="form-control" id="orname">
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="mail" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="mail" placeholder="random@gmail.com">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="phnum" class="form-label">Phone Number</label>
+                            <input type="text" class="form-control" id="phnum">
+                        </div>
+
+                        <div class="col-12 text-center text-white" style="background-color: rgb(245, 115, 115); font-size: 20px;">
+                        Travel Details
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="mail" class="form-label">Departure place</label>
+                            <input type="email" class="form-control" id="mail">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="phnum" class="form-label">Destination place</label>
+                            <input type="text" class="form-control" id="phnum">
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="mail" class="form-label">Departure Date & time</label>
+                            <input type="email" class="form-control" id="mail">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="phnum" class="form-label">Return Date & time</label>
+                            <input type="text" class="form-control" id="phnum">
+                        </div>
+
+                        <div class="col-12 form-floating">
+                            <label for="floatingTextarea">Message</label>
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                        </div>
+
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-danger">Submit Form</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div> 
+
+    <!-- COPYRIGHT SECTION -->
+    <div class="container-fluid bg-black text-white d-flex justify-content-center pt-4 pb-4">
+        <div class="row">
+            <div class="col">© 2025 Raavayatour.com. All Rights Reserved. | Powered by Openlogic Systems</div>
+        </div>
+    </div> 
+
+
+    <!-- modal for Popular Tour Packages of Singapore -->
+    <div class="modal fade" id="singapore_fm_01">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/singapore/singapore_fm_01.jpg" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="singapore_fm_02">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/Singapore/singapore_fm_02.jpg" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="singapore_fm_03">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/Singapore/singapore_fm_03.jpg" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="singapore_fm_04">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/Singapore/singapore_fm_04.jpg" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="singapore_fm_05">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/Singapore/singapore_fm_05.jpg" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="singapore_fm_06">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/Singapore/singapore_fm_06.jpg" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- model for Foof & Drink -->
+    <div class="modal fade" id="dubai_food_01">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/dubai/dubai_food_01.jpg" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="dubai_food_02">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/dubai/dubai_food_02.jpg" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="dubai_food_03">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/dubai/dubai_food_03.jpg" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="dubai_food_04">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/dubai/dubai_food_04.jpg" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal for Browse collections -->
+    <div class="modal fade" id="dubai_br_01">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/dubai/dubai_br_01.jpg" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="dubai_br_02">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/dubai/dubai_br_02.jpg" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="dubai_br_03">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/dubai/dubai_br_03.jpg" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="dubai_br_04">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/dubai/dubai_br_04.jpg" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+  
+
+
+
+    <!-- OFFCANVAS FOR HEADER -->
+    <div class="offcanvas offcanvas-start bg-primary-subtle" id="headercanva">
+        <!-- offcanvas header -->
+        <div class="offcanvas-header">
+            <h3 class="offcanvas-title m-auto" style="font-size: 35px;color: brown; font-family: cursive">Raavaya</h3>
+            <button type="button" class="btn btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <!-- offcanvas body -->
+        <div class="offcanvas-body">
+            <!-- home -->
+            <div class="col col-md-1">
+                <button type="button" class="btn">
+                    <a href="index.html" class="nav-link navclor">Home</a>
+                </button>  
+            </div>
+            <!-- tour in ind -->
+            <div class="col col-md-2">
+                <div class="dropdown">
+                    <button type="button" class="btn" data-bs-toggle="dropdown">
+                        <a href="#" class="nav-link navclor dropdown-toggle" role="button">Tours in India</a>
+                    </button>
+                    <ul class="dropdown-menu">
+                       <li><a href="agra.html" class="dropdown-item dritem" style="color: rgb(185, 12, 12);">Agra</a></li>
+                        <li><a href="golden_tem.html" class="dropdown-item dritem" style="color: rgb(185, 12, 12);">Amritsar</a></li>
+                        <li><a href="#chardham.html" class="dropdown-item dritem dritem" style="color: rgb(185, 12, 12);">Chardham</a></li>
+                        <li><a href="KERALA.html" class="dropdown-item dritem" style="color: rgb(185, 12, 12);">Kerala</a></li>
+                        <li><a href="KARNATAKA.html" class="dropdown-item dritem"  style="color: rgb(185, 12, 12);">Karnataka</a></li>
+                        <li><a href="leh.html" class="dropdown-item dritem" style="color: rgb(185, 12, 12);">Leh</a></li>
+                        <li><a href="mumbai.html" class="dropdown-item dritem" style="color: rgb(185, 12, 12);">Mumbai</a></li>
+                        <li><a href="MEGHALAYA.html" class="dropdown-item dritem" style="color: rgb(185, 12, 12);">Meghalaya</a></li>
+                        <li><a href="udaipur.html" class="dropdown-item dritem" style="color: rgb(185, 12, 12);">Udaipur </a></li>
+                        <li><a href="#" class="dropdown-item">Andaman</a></li>
+                        <li><a href="#" class="dropdown-item">Banaras</a></li>
+                        <li><a href="#" class="dropdown-item">Bangalore</a></li>
+                        <li><a href="#" class="dropdown-item">Bodh Gaya</a></li>
+                        <li><a href="#" class="dropdown-item">Badrinath</a></li>
+                        <li><a href="#" class="dropdown-item">Bhimtal</a></li>
+                        <li><a href="#" class="dropdown-item">Chennai</a></li>
+                        <li><a href="#" class="dropdown-item">Chandigarh</a></li>
+                        <li><a href="#" class="dropdown-item">Chitrakoot</a></li>
+                        <li><a href="#" class="dropdown-item">Chilika Lake</a></li>
+                        <li><a href="#" class="dropdown-item">Daman and Diu</a></li>
+                        <li><a href="#" class="dropdown-item">Delhi</a></li>
+                        <li><a href="#" class="dropdown-item">Darjeeling</a></li>
+                        <li><a href="#" class="dropdown-item">Fatehpur Sikri</a></li>
+                        <li><a href="#" class="dropdown-item">Golden tempal</a></li>
+                        <li><a href="#" class="dropdown-item">Goa</a></li>
+                        <li><a href="#" class="dropdown-item">Gulmarg</a></li>
+                        <li><a href="#" class="dropdown-item">Gwalior</a></li>
+                        <li><a href="#" class="dropdown-item">Ganga Sagar</a></li>
+                        <li><a href="#" class="dropdown-item">Ghats of Varanasi</a></li>
+                        <li><a href="#" class="dropdown-item">Haridwar</a></li>
+                        <li><a href="#" class="dropdown-item">Hampi</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- International tour -->
+            <div class="col col-md-2">
+                <div class="dropdown">
+                    <button type="button" class="btn" data-bs-toggle="dropdown">
+                        <a href="#" class="nav-link navclor dropdown-toggle" role="button">International Tours</a>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="dubai.html" class="dropdown-item dritem" style="color: rgb(185, 12, 12);">Dubai Tour Package</a></li>
+                        <li><a href="singapore.html" class="dropdown-item dritem" style="color: rgb(185, 12, 12);">Singapore Tour Package</a></li>
+                        <li><a href="thailand.html" class="dropdown-item dritem" style="color: rgb(185, 12, 12);">thailand Tour Package</a></li>
+                        <li><a href="vietnam.html" class="dropdown-item dritem" style="color: rgb(185, 12, 12);">Vietnam Tour Package</a>
+                        </li>
+                        <li><a href="#" class="dropdown-item">Australia Tour Package</a></li>
+                        <li><a href="#" class="dropdown-item">Balkans Tour Package</a></li>
+                        <li><a href="#" class="dropdown-item">Greece Tour Package</a></li>
+                        <li><a href="#" class="dropdown-item">Romania Tour Package</a></li>
+                        <li><a href="#" class="dropdown-item">Bhutan Tour Package</a></li>
+                        <li><a href="#" class="dropdown-item">Dubai Tour Package</a></li>
+                        <li><a href="#" class="dropdown-item">Europe Tour Package</a></li>
+                        <li><a href="#" class="dropdown-item">Hong Kong Tour Package</a></li>
+                        <li><a href="#" class="dropdown-item">Indonesia Tour Package</a></li>
+                        <li><a href="#" class="dropdown-item">Bali Tour Package</a></li>
+                        <li><a href="#" class="dropdown-item">Italy Tour Package</a></li>
+                        <li><a href="#" class="dropdown-item">JapanTour Package</a></li>
+                        <li><a href="#" class="dropdown-item">Serbian Tour Package</a></li>
+                        <li><a href="#" class="dropdown-item">Switzerland Tour Package</a></li>
+                        <li><a href="#" class="dropdown-item">Vietnam Tour Package</a></li>
+                        <li><a href="#" class="dropdown-item">Thailand Tour Packages</a></li>
+                        <li><a href="#" class="dropdown-item">Malaysis Tour Package</a></li>
+                        <li><a href="#" class="dropdown-item">Maldives Tour Package</a></li>
+                        <li><a href="#" class="dropdown-item">Myanmar Tour Package</a></li>
+                        <li><a href="#" class="dropdown-item">New Zealand Tour Package</a></li>
+                        <li><a href="#" class="dropdown-item">Nepal Tour Package</a></li>
+                        <li><a href="#" class="dropdown-item">Russia Tour Package</a></li>
+                        <li><a href="#" class="dropdown-item">Sri Lanka Tour Package</a></li>
+                        <li><a href="#" class="dropdown-item">Singapore Package</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Destinations -->
+            <div class="col col-md-2">
+                <div class="dropdown">
+                    <button type="button" class="btn" data-bs-toggle="dropdown">
+                        <a href="#" class="nav-link navclor dropdown-toggle" role="button">Destinations</a>
+                    </button>
+                    <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item">Agra</a></li>
+                        <li><a href="#" class="dropdown-item">Amritsar</a></li>
+                        <li><a href="#" class="dropdown-item">Andaman</a></li>
+                        <li><a href="#" class="dropdown-item">Banaras</a></li>
+                        <li><a href="#" class="dropdown-item">Bangalore</a></li>
+                        <li><a href="#" class="dropdown-item">Bodh Gaya</a></li>
+                        <li><a href="#" class="dropdown-item">Badrinath</a></li>
+                        <li><a href="#" class="dropdown-item">Bhimtal</a></li>
+                        <li><a href="#" class="dropdown-item">Chennai</a></li>
+                        <li><a href="#" class="dropdown-item">Chandigarh</a></li>
+                        <li><a href="#" class="dropdown-item">Chitrakoot</a></li>
+                        <li><a href="#" class="dropdown-item">Chilika Lake</a></li>
+                        <li><a href="#" class="dropdown-item">Daman and Diu</a></li>
+                        <li><a href="#" class="dropdown-item">Delhi</a></li>
+                        <li><a href="#" class="dropdown-item">Darjeeling</a></li>
+                        <li><a href="#" class="dropdown-item">Fatehpur Sikri</a></li>
+                        <li><a href="#" class="dropdown-item">Golden tempal</a></li>
+                        <li><a href="#" class="dropdown-item">Goa</a></li>
+                        <li><a href="#" class="dropdown-item">Gulmarg</a></li>
+                        <li><a href="#" class="dropdown-item">Gwalior</a></li>
+                        <li><a href="#" class="dropdown-item">Ganga Sagar</a></li>
+                        <li><a href="#" class="dropdown-item">Ghats of Varanasi</a></li>
+                        <li><a href="#" class="dropdown-item">Haridwar</a></li>
+                        <li><a href="#" class="dropdown-item">Hampi</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- support -->
+            <div class="col col-md-3">
+                <button type="button" class="btn">
+                    <a href="support.html" class="nav-link navclor">Support</a>
+                </button>
+            </div>
+            <!-- about -->
+            <div class="col col-md-2">
+                <button type="button" class="btn">
+                    <a href="about.html" class="nav-link navclor">About Us</a>
+                </button>
+            </div>
+            <!-- Contact -->
+            <div class="col col-md-2">
+                <button type="button" class="btn">
+                    <a href="contact.html" class="nav-link navclor">Contact Us</a>
+                </button>
+            </div>
+            <!-- get in touch -->
+            <div class="col col-md-4">
+                <h4 class="pt-4 pb-4" style="color: rgb(145, 58, 11);">Connect with Us</h4>
+                <a href="https://www.facebook.com/" class="ftr_lst_cl_link" id="ftr_facebook"><i class="fa-brands fa-facebook" style="color: blue;"></i></a>
+
+                <a href="https://x.com/" class="ftr_lst_cl_link" id="ftr_twitter"><i class="fa-brands fa-x-twitter" style="color: black;"></i></a>
+
+                <a href="https://www.instagram.com/" class="ftr_lst_cl_link" id="ftr_instagram"><i class="fa-brands fa-square-instagram" style="color: rgb(244, 117, 232);font-size: 28px;"></i></a>
+
+                <a href="https://www.pinterest.com/" class="ftr_lst_cl_link" id="ftr_pinterest"><i class="fa-brands fa-pinterest" style="color: red;font-size: 28px;"></i></a>
+
+                <a href="https://in.linkedin.com/" class="ftr_lst_cl_link" id="ftr_linkedin"><i class="fa-brands fa-square-linkedin" style="color: rgb(32, 115, 216);font-size: 28px;"></i></a>
+
+                <a href="https://www.whatsapp.com/?lang=en" class="ftr_lst_cl_link" id="ftr_pinterest"><i class="fa-brands fa-square-whatsapp" style="color: rgb(50, 216, 50); font-size: 29px;"></i></i></a>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
