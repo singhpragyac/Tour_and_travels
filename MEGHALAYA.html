@@ -30,8 +30,8 @@
 
         .content_sec_hdr {
             color:  rgb(0, 0, 0);
-            padding: 30px;
-           font-family: 'Alfa Slab One', 'serif';
+            padding: 30px 15px;
+            font-family: 'Alfa Slab One', 'serif';
         }
         /* .img_hover {
 	        transition: 2s linear;
@@ -366,6 +366,9 @@
         </div>
     </div>
 
+    <!-- back to home link -->
+    <a href="index.html" style="margin-left: 80px; text-decoration: none; color: brown;">Home<i class="fa-solid fa-arrows-turn-right fa-flip-horizontal" style="color: brown"></i></a>
+
     <!--  MeghalayaTour tour -->
     <div class="container pt-5">
         <div class="row">
@@ -389,7 +392,9 @@
                 <div style="background-color: rgb(247, 225, 225);text-align: center; width: 80%; border-radius: 6px; padding: 8px; margin: auto;">
                    <p style="color: gray;">Starts From</p>
                     <h2>₹29,000*</h2>
-                    <a href="booking_form.html"><button type="button" value="book" style="height: 50px; width: 70%; border: none;border-radius: 18px; font-weight: 900;background-color: rgb(232, 75, 75); color: white;">Book Now</button></a>
+                    <button type="button" class="btn btn-danger w-auto" data-bs-toggle="modal" data-bs-target="#book_your_ticket">
+                    Book Your Ticket 
+                    </button>
                 </div>
             </div>
         </div>
@@ -401,19 +406,19 @@
             <h2 class="content_sec_hdr">Meghalaya famous Tour Packages</h2>
             <h6 style="color: gray;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Meghalaya is famous for its abundant waterfalls, unique living root bridges, lush rainforests, and rich biodiversity, earning it the nickname "abode of clouds" and the "Land of Waterfalls". The state is also known for its indigenous tribal cultures, particularly the Khasi, Garo, and Jaintia tribes, as well as the "!Mawlynnong" village, recognized as one of the cleanest in Asia.</h6>
             <div class="col-md-3">
-                <a href="images/meghalaya/megh_fam_01.webp" class="udai_package"><img src="images/meghalaya/megh_fam_01.webp" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"><p><b>Living Root Bridges</b><br></p></a>
+                <a href="#" class="udai_package" data-bs-toggle="modal" data-bs-target="#megh_fam_01"><img src="images/meghalaya/megh_fam_01.webp" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"><p><b>Living Root Bridges</b><br></p></a>
             </div>
 
             <div class="col-md-3">
-                <a href="images/meghalaya/megh_fam_02.webp" class="udai_package"><img src="images/meghalaya/megh_fam_02.webp" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"><p><b>Caves</b><br></p></a>
+                <a href="#" class="udai_package" data-bs-toggle="modal" data-bs-target="#megh_fam_02"><img src="images/meghalaya/megh_fam_02.webp" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"><p><b>Caves</b><br></p></a>
             </div>
 
             <div class="col-md-3">
-                <a href="images/meghalaya/megh_fam_03.webp" class="udai_package"><img src="images/meghalaya/megh_fam_03.webp" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"><p><b>Rainforests and Sacred Groves</b><br></p></a>
+                <a href="#" class="udai_package" data-bs-toggle="modal" data-bs-target="#megh_fam_03"><img src="images/meghalaya/megh_fam_03.webp" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"><p><b>Rainforests and Sacred Groves</b><br></p></a>
             </div>
 
             <div class="col-md-3">
-                <a href="images/meghalaya/megh_fam_04.webp" class="udai_package"><img src="images/meghalaya/megh_fam_04.webp" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"><p><b>Lakes and Rivers</b><br></p></a>
+                <a href="#" class="udai_package" data-bs-toggle="modal" data-bs-target="#megh_fam_04"><img src="images/meghalaya/megh_fam_04.webp" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"><p><b>Lakes and Rivers</b><br></p></a>
             </div>
         </div>
     </div> 
@@ -425,27 +430,36 @@
             <h6 style="color: gray;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Meghalaya is famous for its abundant waterfalls, unique living root bridges, lush rainforests, and rich biodiversity, earning it the nickname "abode of clouds" and the "Land of Waterfalls". The state is also known for its indigenous tribal cultures, particularly the Khasi, Garo, and Jaintia tribes, as well as the "!Mawlynnong" village, recognized as one of the cleanest in Asia.</h6>
             <div class="col-md-4">
                 <div class="card discover_card">
-                    <a href="images/meghalaya/megh_fam_05.webp"><img src="images/meghalaya/megh_fam_05.webp" class="card-img-top" style="height: 250px; width:100%;"></a>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#megh_fam_05"><img src="images/meghalaya/megh_fam_05.webp" class="card-img-top" style="height: 250px; width:100%;"></a>
                     <div class="card-body">
-                        <a href="images/meghalaya/megh_fam_05.webp" style="text-decoration: none;"><h4 class="card-title" style="color: brown;">Mawlynnong Village</h4></a>
+                        <a href="#" style="text-decoration: none;" data-bs-toggle="modal" data-bs-target="#megh_fam_05">
+                            <h4 class="card-title" style="color: brown;font-size: 18px;">Mawlynnong Village</h4>
+                            <h6 style="color: rgb(235, 151, 151);font-size: 15px;">From ₹44,430</h6>
+                        </a>
                     </div>
                 </div>
            </div>
 
             <div class="col-md-4">
                 <div class="card discover_card">
-                    <a href="images/meghalaya/megh_fam_06.webp"><img src="images/meghalaya/megh_fam_06.webp" class="card-img-top" style="height: 250px; width:100%;"></a>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#megh_fam_06"><img src="images/meghalaya/megh_fam_06.webp" class="card-img-top" style="height: 250px; width:100%;"></a>
                     <div class="card-body">
-                       <a href="images/meghalaya/megh_fam_06.webp" style="text-decoration: none;"><h4 class="card-title" style="color: brown;">Indigenous Tribes</h4></a>
+                       <a href="#" style="text-decoration: none;" data-bs-toggle="modal" data-bs-target="#megh_fam_06">
+                           <h4 class="card-title" style="color: brown;font-size: 18px;">Indigenous Tribes</h4>
+                           <h6 style="color: rgb(235, 151, 151);font-size: 15px;">From ₹44,430</h6>
+                       </a>
                     </div>
                 </div>
            </div>
 
             <div class="col-md-4">
                 <div class="card discover_card">
-                    <a href="images/meghalaya/megh_fam_07.webp"><img src="images/meghalaya/megh_fam_07.webp" class="card-img-top" style="height: 250px; width:100%;"></a>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#megh_fam_07"><img src="images/meghalaya/megh_fam_07.webp" class="card-img-top" style="height: 250px; width:100%;"></a>
                     <div class="card-body">
-                       <a href="images/meghalaya/megh_fam_07.webp" style="text-decoration: none;"><h4 class="card-title" style="color: brown;">waterfalls</h4></a>
+                        <a href="#" style="text-decoration: none;" data-bs-toggle="modal" data-bs-target="#megh_fam_07">
+                            <h4 class="card-title" style="color: brown;font-size: 18px;">waterfalls</h4>
+                            <h6 style="color: rgb(235, 151, 151);font-size: 15px;">From ₹44,430</h6>
+                        </a>
                     </div>
                 </div>
            </div>
@@ -457,27 +471,36 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="card discover_card">
-                    <a href="images/meghalaya/megh_fam_08.webp"><img src="images/meghalaya/megh_fam_08.webp" class="card-img-top" style="height: 250px; width:100%;"></a>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#megh_fam_08"><img src="images/meghalaya/megh_fam_08.webp" class="card-img-top" style="height: 250px; width:100%;"></a>
                     <div class="card-body">
-                        <a href="images/meghalaya/megh_fam_08.webp" style="text-decoration: none;"><h4 class="card-title" style="color: brown;">Shillong</h4></a>
+                        <a href="#" style="text-decoration: none;" data-bs-toggle="modal" data-bs-target="#megh_fam_08">
+                            <h4 class="card-title" style="color: brown;font-size: 18px;">Shillong</h4>
+                            <h6 style="color: rgb(235, 151, 151);font-size: 15px;">From ₹44,430</h6>
+                        </a>
                     </div>
                 </div>
            </div>
 
             <div class="col-md-4">
                 <div class="card discover_card">
-                    <a href="images/meghalaya/megh_fam_09.webp"><img src="images/meghalaya/megh_fam_09.webp" class="card-img-top" style="height: 250px; width:100%;"></a>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#megh_fam_09"><img src="images/meghalaya/megh_fam_09.webp" class="card-img-top" style="height: 250px; width:100%;"></a>
                     <div class="card-body">
-                       <a href="images/meghalaya/megh_fam_09.webp" style="text-decoration: none;"><h4 class="card-title" style="color: brown;">Majestic Umiam Lake</h4></a>
+                        <a href="#" style="text-decoration: none;" data-bs-toggle="modal" data-bs-target="#megh_fam_09">
+                           <h4 class="card-title" style="color: brown;font-size: 18px;">Majestic Umiam Lake</h4>
+                           <h6 style="color: rgb(235, 151, 151);font-size: 15px;">From ₹44,430</h6>
+                        </a>
                     </div>
                 </div>
            </div>
 
             <div class="col-md-4">
                 <div class="card discover_card">
-                    <a href="images/meghalaya/megh_fam_10.webp"><img src="images/meghalaya/megh_fam_10.webp" class="card-img-top" style="height: 250px; width:100%;"></a>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#megh_fam_10"><img src="images/meghalaya/megh_fam_10.webp" class="card-img-top" style="height: 250px; width:100%;"></a>
                     <div class="card-body">
-                       <a href="images/meghalaya/megh_fam_10.webp" style="text-decoration: none;"><h4 class="card-title" style="color: brown;">Glimpse of Meghalaya</h4></a>
+                        <a href="#" style="text-decoration: none;" data-bs-toggle="modal" data-bs-target="#megh_fam_10">
+                            <h4 class="card-title" style="color: brown;font-size: 18px;">Glimpse of Meghalaya</h4>
+                            <h6 style="color: rgb(235, 151, 151);font-size: 15px;">From ₹44,430</h6>
+                        </a>
                     </div>
                 </div>
            </div>
@@ -489,19 +512,19 @@
         <div class="row">
             <h2 class="content_sec_hdr">Buy A Piece of Meghalaya</h2>
             <div class="col-md-3">
-                <a href="images/meghalaya/megh_buy_01.webp" class="udai_package"><img src="images/meghalaya/megh_buy_01.webp" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"><p><b>Craft</b></p></a>
+                <a href="#" class="udai_package" data-bs-toggle="modal" data-bs-target="#megh_buy_01"><img src="images/meghalaya/megh_buy_01.webp" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"><p><b>Craft</b></p></a>
             </div>
 
             <div class="col-md-3">
-                <a href="images/meghalaya/megh_buy_02.webp" class="udai_package"><img src="images/meghalaya/megh_buy_02.webp" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"><p><b>Textile</b></p></a>
+                <a href="#" class="udai_package" data-bs-toggle="modal" data-bs-target="#megh_buy_02"><img src="images/meghalaya/megh_buy_02.webp" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"><p><b>Textile</b></p></a>
             </div>
 
             <div class="col-md-3">
-                <a href="images/meghalaya/megh_buy_03.webp" class="udai_package"><img src="images/meghalaya/megh_buy_03.webp" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"><p><b>Food</b></p></a>
+                <a href="#" class="udai_package" data-bs-toggle="modal" data-bs-target="#megh_buy_03"><img src="images/meghalaya/megh_buy_03.webp" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"><p><b>Food</b></p></a>
             </div>
 
             <div class="col-md-3">
-                <a href="images/meghalaya/megh_buy_04.webp" class="udai_package"><img src="images/meghalaya/megh_buy_04.webp" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"><p><b>Pottery</b></p></a>
+                <a href="#" class="udai_package" data-bs-toggle="modal" data-bs-target="#megh_buy_04"><img src="images/meghalaya/megh_buy_04.webp" class="img_hover" style="height: 200px; width: 100%; border-radius: 4px;"><p><b>Pottery</b></p></a>
             </div>
         </div>
     </div>
@@ -569,7 +592,7 @@
         </div>
     </div> 
 
-    <!-- modal for enquiry -->
+    <!-- modal for enquiry start -->
     <div class="container-fluid bg-primary-subtle pt-2">
         <!-- toggle btn -->
         <div class="row justify-content-center">
@@ -648,9 +671,85 @@
                     </form>
                 </div>
             </div>
-
         </div>
-    </div> 
+    </div>
+    <!-- modal for enquiry end -->
+
+    <!-- modal for ticket booking start -->
+    <div class="modal fade" id="book_your_ticket">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Fill this Details</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="row g-3">
+                        <img src="images/booking_01.png" width="100%">
+                        <div class="col-md-6">
+                            <label for="fname" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="fname">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="lname" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="lname">
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="dob" class="form-label">Birth Date</label>
+                            <input type="date" class="form-control" id="dob">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="orname" class="form-label">Organization Name</label>
+                            <input type="text" class="form-control" id="orname">
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="mail" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="mail" placeholder="random@gmail.com">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="phnum" class="form-label">Phone Number</label>
+                            <input type="text" class="form-control" id="phnum">
+                        </div>
+
+                        <div class="col-12 text-center text-white" style="background-color: rgb(245, 115, 115); font-size: 20px;">
+                        Travel Details
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="mail" class="form-label">Departure place</label>
+                            <input type="email" class="form-control" id="mail">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="phnum" class="form-label">Destination place</label>
+                            <input type="text" class="form-control" id="phnum">
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="mail" class="form-label">Departure Date & time</label>
+                            <input type="email" class="form-control" id="mail">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="phnum" class="form-label">Return Date & time</label>
+                            <input type="text" class="form-control" id="phnum">
+                        </div>
+
+                        <div class="col-12 form-floating">
+                            <label for="floatingTextarea">Message</label>
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                        </div>
+
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-danger">Submit Form</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal for ticket booking end -->
+
 
     <!-- COPYRIGHT SECTION -->
     <div class="container-fluid bg-black text-white d-flex justify-content-center pt-4 pb-4">
@@ -658,6 +757,192 @@
             <div class="col">© 2025 Raavayatour.com. All Rights Reserved. | Powered by Openlogic Systems</div>
         </div>
     </div>  
+
+
+    <!-- modal for Meghalaya tour -->
+    <div class="modal fade" id="megh_fam_01">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/meghalaya/megh_fam_01.webp" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="megh_fam_02">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/meghalaya/megh_fam_02.webp" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="megh_fam_03">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/meghalaya/megh_fam_03.webp" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="megh_fam_04">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/meghalaya/megh_fam_04.webp" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="megh_fam_05">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/meghalaya/megh_fam_05.webp" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="megh_fam_06">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/meghalaya/megh_fam_06.webp" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="megh_fam_07">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/meghalaya/megh_fam_07.webp" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="megh_fam_08">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/meghalaya/megh_fam_08.webp" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="megh_fam_09">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/meghalaya/megh_fam_09.webp" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="megh_fam_10">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/meghalaya/megh_fam_10.webp" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal for Buy A Piece of Meghalaya -->
+
+    <div class="modal fade" id="megh_buy_01">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/meghalaya/megh_buy_01.webp" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="megh_buy_02">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/meghalaya/megh_buy_02.webp" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="megh_buy_03">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/meghalaya/megh_buy_03.webp" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="megh_buy_04">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/meghalaya/megh_buy_04.webp" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 

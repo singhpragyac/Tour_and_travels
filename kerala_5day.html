@@ -29,8 +29,8 @@
 
         .content_sec_hdr {
             color:  rgb(0, 0, 0);
-            padding: 30px;
-           font-family: 'Alfa Slab One', 'serif';
+            padding: 30px 15px;
+            font-family: 'Alfa Slab One', 'serif';
         }
         /* .img_hover {
 	        transition: 2s linear;
@@ -345,6 +345,9 @@
         </div>
     </div>
 
+    <!-- back to home link -->
+    <a href="KERALA.html" style="margin-left: 80px; text-decoration: none; color: brown;">Back<i class="fa-solid fa-arrows-turn-right fa-flip-horizontal" style="color: brown"></i></a>
+
 
     <!-- 05 Days Kerala Tour – Special offer -->
     <div class="container pt-5">
@@ -570,7 +573,83 @@
             </div>
 
         </div>
-    </div> 
+    </div>
+    <!-- modal for enquiry end -->
+
+    <!-- modal for ticket booking start -->
+    <div class="modal fade" id="book_your_ticket">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Fill this Details</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="row g-3">
+                        <img src="images/booking_01.png" width="100%">
+                        <div class="col-md-6">
+                            <label for="fname" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="fname">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="lname" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="lname">
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="dob" class="form-label">Birth Date</label>
+                            <input type="date" class="form-control" id="dob">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="orname" class="form-label">Organization Name</label>
+                            <input type="text" class="form-control" id="orname">
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="mail" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="mail" placeholder="random@gmail.com">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="phnum" class="form-label">Phone Number</label>
+                            <input type="text" class="form-control" id="phnum">
+                        </div>
+
+                        <div class="col-12 text-center text-white" style="background-color: rgb(245, 115, 115); font-size: 20px;">
+                        Travel Details
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="mail" class="form-label">Departure place</label>
+                            <input type="email" class="form-control" id="mail">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="phnum" class="form-label">Destination place</label>
+                            <input type="text" class="form-control" id="phnum">
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="mail" class="form-label">Departure Date & time</label>
+                            <input type="email" class="form-control" id="mail">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="phnum" class="form-label">Return Date & time</label>
+                            <input type="text" class="form-control" id="phnum">
+                        </div>
+
+                        <div class="col-12 form-floating">
+                            <label for="floatingTextarea">Message</label>
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                        </div>
+
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-danger">Submit Form</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal for ticket booking end --> 
 
     <!-- COPYRIGHT SECTION -->
     <div class="container-fluid bg-black text-white d-flex justify-content-center pt-4 pb-4">
@@ -578,12 +657,6 @@
             <div class="col">© 2025 Raavayatour.com. All Rights Reserved. | Powered by Openlogic Systems</div>
         </div>
     </div>  
-
-
-
-
-
-
 
 
 
