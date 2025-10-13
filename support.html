@@ -97,7 +97,7 @@
             <div class="col">
                 <nav class="navbar navbar-expand-sm navbar-light">
                    <div class="col-md-2">
-                        <a href="#" class="navbar-brand ps-4" style="color: brown; font-weight: 700; font-family: cursive">Raavaya</a>
+                        <a href="index.html" class="navbar-brand ps-4" style="color: brown; font-weight: 700; font-family: cursive">Raavaya</a>
                    </div>
                     <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#headercanva">
                         <span class="navbar-toggler-icon"></span>
@@ -348,7 +348,7 @@
     <div class="container pt-5">
         <div class="row">
             <div class="col-md-6">
-                <img src="images\adtoi_logo_big_support.jpg" class="img_hover" style="height: auto;width: 60%;">
+                <img src="images\adtoi_logo_big_support.jpg" class="img_hover ms-5 mt-5 ps-5 mb-5" style="height: auto;width: 60%;">
             </div>
             <div class="col-md-6">
                 <h5>Working Hours - (10:00 AM – 6:00 PM. Monday – Saturday)</h5><br>
@@ -456,28 +456,28 @@
         <div class="row justify-content-center">
             <h3 class="content_sec_hdr">Airports Served in India</h3>
             <div class="col-md-2">
-                <img src="images/airport_ind01.avif" width="150px" class="img_hover">
-                <h6 style="text-align: center;">Bangalore</h6>
+                <img src="images/airport_ind01.avif" width="150px" class="img_hover justify-content-center ms-3 pb-3">
+                <span class="justify-content-center ms-5"><b>Bangalore</b></span>
             </div>
 
             <div class="col-md-2">
-                <img src="images/airport_ind02.avif" width="150px" class="img_hover">
-                <h6 style="text-align: center;">Chennai</h6>
+                <img src="images/airport_ind02.avif" width="150px" class="img_hover justify-content-center ms-2 pb-3">
+                <span class="justify-content-center ms-5 ps-1"><b>Chennai</b></span>
             </div>
 
             <div class="col-md-2">
-                <img src="images/airport_ind03.avif" width="150px" class="img_hover">
-                <h6 style="text-align: center;">Delhi</h6>
+                <img src="images/airport_ind03.avif" width="150px" class="img_hover justify-content-center ms-1 pb-3">
+                <span class="justify-content-center ms-5 ps-2"><b>Delhi</b></span>
             </div>
 
             <div class="col-md-2">
-                <img src="images/airport_ind04.avif" width="150px" class="img_hover">
-                <h6 style="text-align: center;">Hyderabad</h6>
+                <img src="images/airport_ind04.avif" width="150px" class="img_hover justify-content-center ms-3 pb-3">
+                <span class="justify-content-center ms-5 ps-2"><b>Hyderabad</b></span>
             </div>
 
             <div class="col-md-2">
-                <img src="images/airport_ind05.avif" width="150px" class="img_hover">
-                <h6 style="text-align: center;">Mumbai</h6>
+                <img src="images/airport_ind05.avif" width="150px" class="img_hover justify-content-center ms-3 pb-3">
+                <span class="justify-content-center ms-5 ps-3"><b>Mumbai</b></span>
             </div>
         </div>
     </div> 
@@ -500,13 +500,19 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
                 </div>
                 <div class="modal-body">
-                    <form style="text-align: center;">
-                        <input type="text" placeholder="FROM" style="width: 70%; height: 50px;" class="mb-3 rounded border border-2"><br>
-                        <input type="text" placeholder="To" style="width: 70%; height: 50px;" class="mb-3 rounded border border-2"><br>
-                        <input type="text" placeholder="DEPARTURE DATE" style="width: 70%; height: 50px;" class="mb-3 rounded border border-2"><br>
-                        <input type="text" placeholder="TRAVELLER CLASS" style="width: 70%; height: 50px;" class="mb-3 rounded border border-2">
-                        <a href="#"><input type="button" value="Search Airasia flight" style="width: 300px; border: none;background-color: rgb(227, 148, 121);color: white; border-radius: 5px;"></a>
-                    </form>
+                    <div class="col-12">
+                        <form class="align-items-center" method="post">
+                            <input class="form-control m-auto" type="text" placeholder="From"><br>
+
+                            <input class="form-control m-auto" type="text" placeholder="To"><br>
+
+                            <input class="form-control m-auto" type="text" placeholder="Departure Date"><br>
+
+                            <input class="form-control m-auto" type="text" placeholder="Traveler Class"><br>
+                            
+                            <a href="#" class="btn btn-warning w-50" role="button" style="margin-left: 25%;">Search flight</a>
+                        </form>
+                    </div>
                 </div>
             </div>
 
@@ -515,22 +521,24 @@
 
     <!-- WANT TO ASK -->
     <div class="container pt-5">
-        <div class="row">
+        <div class="row justify-content-center">
             <h3 class="content_sec_hdr">Want Us To Call Back ? </h3>
-            <div class="col d-flex justify-content-center">
-                <form>
-                    <label for="name">Name</label><br>
-                    <input type="text" id="name" style="width: 100%; height: 40px;"><br><br>
+            <div class="col-12 w-50">
+                <form class="align-items-center" method="post">
 
-                    <label for="name">Email</label><br>
-                    <input type="email" id="name" style="width: 100%; height: 40px;">
+                    <label class="form-label" for="name">Name</label>
+                    <input class="form-control m-auto" type="text" id="name"><br>
 
-                    <label for="name">Phone</label>
-                    <input type="number" id="name" style="width: 100%; height: 40px;"><br>
+                    <label class="form-label" for="email">Email</label>
+                    <input class="form-control m-auto" type="email" id="email"><br>
 
-                    <label for="message">Message</label><br>
-                    <textarea id="message" style="width: 100%;"></textarea><br>
-                   <a href="#"><button type="button" style="height: 30px; float: right; border: none; border-radius: 4px; background-color: brown;color: white;">Submit</button></a>
+                    <label class="form-label" for="phno">Phone</label>
+                    <input class="form-control m-auto" type="number" id="phno"><br>
+
+                    <label class="form-label" for="message">Message</label>
+                    <textarea class="form-control" id="message"></textarea><br>
+
+                    <a href="#" class="btn btn-warning float-end" role="button">Submit</a>
                 </form>
             </div>
         </div>
@@ -540,43 +548,43 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <h1 style="font-size: 40px;color: brown;">About India Tour Packages</h1>
-                <h6><b>India Wildlife Tours</b></h6>
+                <h1 style="font-size: 40px;color: brown;font-family: 'Alfa Slab One', 'serif';">About India Tour Packages</h1>
+                <h6><b>1.India Wildlife Tours</b></h6>
                 <p>
                     India's wildlife tours offer enthralling experiences to wildlife enthusiasts through their remarkable diversity. We aim to highlight the best of this in our wildlife tour packages, ensuring there's something for every wildlife lover. Whether it's tiger safari tours, snow leopard tours, rhino tours, or bird watching tours, we promise a thrilling adventure in India. So, get ready with your camera to capture some of the best wildlife shots with us!
                 </p>
 
-                <h6><b>Heritage Tours in India</b></h6>
+                <h6><b>2.Heritage Tours in India</b></h6>
                 <p>
                     India boasts a rich history and architectural marvels, with landmarks like the Taj Mahal, the forts and palaces of Rajasthan, Mahabalipuram in the south, and Ajanta & Ellora in the west serving as stunning examples of its heritage. To witness and experience this rich heritage firsthand, choose from our range of India heritage tour packages. These tours offer a closer look at the intricate carvings and architectural masterpieces, and a walk through unforgettable monuments rich with tales and legends. Embark on an unmatched heritage holiday in India with us.
                 </p>
 
-                <h6><b>Hill Station Tours in India</b></h6>
+                <h6><b>3.Hill Station Tours in India</b></h6>
                 <p>
                     If you wish to experience nature at its finest in India, a holiday in a hill station is an excellent idea. Enjoy a vacation in scenic hilly locations adorned with colonial-era buildings, surrounded by forests, and boasting spectacular mountain views, all under a canopy of fresh, chilly air. In winter, you can delight in snowfall and partake in activities like skiing. With our hill station tour packages, you can enjoy the best holiday experiences in premier Indian hill stations like Kashmir, Nainital, Manali, Mussoorie, Shimla, Ooty, Munnar, Darjeeling, Gangtok, and more.
                 </p>
 
-                <h6><b>Beach Tours in India</b></h6>
+                <h6><b>4.Beach Tours in India</b></h6>
                 <p>
                     The picturesque beaches in India promise a vacation that's hard to forget, and with our top-notch beach tour packages, the experience becomes even more memorable. Explore the Indian coastline and indulge in adventure activities that deliver a hefty adrenaline rush. Our beach tour packages are your gateway to a relaxing and romantic seaside getaway, an adventure-packed venture, or a holiday filled with family memories. The best places for beach holidays in India include Goa, the Andamans, Kerala, Odisha, and Lakshadweep.
                 </p>
 
-                <h6><b>Honeymoon Tour Packages</b></h6>
+                <h6><b>5.Honeymoon Tour Packages</b></h6>
                 <p>
                     A honeymoon is a journey that will remain etched in your memory for the rest of your life. Make the most of your first holiday together in India with our specially curated honeymoon tour packages. With the finest hotels and a range of activities to choose from, we ensure that you'll relish every moment of your invaluable romantic vacation. Popular destinations for honeymoon tours in India include Kashmir, Goa, Kerala, Uttarakhand, Himachal, Rajasthan, Sikkim, Lakshadweep, and the Andamans.
                 </p>
 
-                <h6><b>Cultural Tours in India</b></h6>
+                <h6><b>6.Cultural Tours in India</b></h6>
                 <p>
                     India's rich culture, with its vibrant festivals, remarkable traditions, amazing arts and crafts, scrumptious food, and brilliant dance and music, captivates travellers from around the world. Boasting a diversity of religions and customs, India truly celebrates cultural pluralism. With our all-inclusive India cultural tour packages, travellers can partake in unique celebrations, explore intriguing rituals, and experience impeccable hospitality, ensuring that your cultural holidays in India are truly unforgettable.
                 </p>
 
-                <h6><b>Adventure Tours India</b></h6>
+                <h6><b>7.Adventure Tours India</b></h6>
                 <p>
                     The diverse Indian topography, characterized by the towering Himalayas, dense forests, rugged terrains, alpine lakes and meadows, and powerful sea waves, provides a wealth of opportunities for spine-tingling adventure sports. With our adventure tour packages, you can enjoy a wide range of exhilarating activities, from trekking and river rafting to paragliding and windsurfing, as well as mountain biking, peak climbing, and much more. Adventure tourism in India invites you to a world of thrill and excitement.
                 </p>
 
-                <h6><b>Luxury Tours in India</b></h6>
+                <h6><b>8.Luxury Tours in India</b></h6>
                 <p>
                     Allow luxury to be your constant companion during your holidays as you plan a stay at the top luxury hotels in India. The country also offers many luxurious royal train journeys, such as the Maharaja Express, Royal Chariot, and Palace on Wheels, for unforgettable luxury holiday experiences. Revel in the best of relaxation, pampering, and comfort while exploring India's diversity and boundless beauty. Immerse yourself in luxurious experiences, whether travelling on luxury trains and cruises or indulging in spa and meditation sessions. Transform your vacation into an extraordinary experience, one that acquaints you with true luxury. Our luxury tour packages deliver the finest hospitality and promise to leave you with lifelong memories.
                 </p>
